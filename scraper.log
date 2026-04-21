@@ -1,0 +1,1946 @@
+2026-04-21 01:21:43,052 [INFO] ============================================================
+2026-04-21 01:21:43,053 [INFO]   Medicine Photo Scraper & Document Inserter
+2026-04-21 01:21:43,053 [INFO] ============================================================
+2026-04-21 01:21:43,053 [INFO] 
+📋 Step 1: Extracting medicine names from document...
+2026-04-21 01:21:43,129 [INFO]    Found 75 photo placeholders
+2026-04-21 01:21:43,129 [INFO] 
+   Unique medicines (75):
+2026-04-21 01:21:43,129 [INFO]      1. Alendronate sodium / Fosamax tablets
+2026-04-21 01:21:43,129 [INFO]      2. Amiodarone / Cordarone tablets
+2026-04-21 01:21:43,130 [INFO]      3. Amlodipine / Istin tablets
+2026-04-21 01:21:43,130 [INFO]      4. Apixaban / Thromban pack
+2026-04-21 01:21:43,130 [INFO]      5. Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 01:21:43,130 [INFO]      6. Atorvastatin / Lipitor tablets
+2026-04-21 01:21:43,130 [INFO]      7. Azithromycin / Zithromax capsules
+2026-04-21 01:21:43,130 [INFO]      8. Baclofen tablets
+2026-04-21 01:21:43,131 [INFO]      9. Betahistine / Serc tablets
+2026-04-21 01:21:43,131 [INFO]     10. Betamethasone valerate / Betnovate cream
+2026-04-21 01:21:43,131 [INFO]     11. Bisoprolol fumarate / Cardicor tablets
+2026-04-21 01:21:43,131 [INFO]     12. Cefalexin / Keflex capsules
+2026-04-21 01:21:43,131 [INFO]     13. Cefuroxime Axetil / Zinnat tablets
+2026-04-21 01:21:43,131 [INFO]     14. Cetirizine / Zirtek tablets
+2026-04-21 01:21:43,131 [INFO]     15. Chlorpheniramine / Piriton tablets
+2026-04-21 01:21:43,131 [INFO]     16. Cilnidipine tablets
+2026-04-21 01:21:43,131 [INFO]     17. Cimetidine tablets
+2026-04-21 01:21:43,132 [INFO]     18. Cinnarizine / Stugeron tablets
+2026-04-21 01:21:43,132 [INFO]     19. Ciprofloxacin / Ciproxin tablets
+2026-04-21 01:21:43,132 [INFO]     20. Citalopram / Cipramil tablets
+2026-04-21 01:21:43,132 [INFO]     21. Clopidogrel / Plavix tablets
+2026-04-21 01:21:43,132 [INFO]     22. Deplus (Cholecalciferol / Vitamin D3) tablets
+2026-04-21 01:21:43,132 [INFO]     23. Diazepam tablets
+2026-04-21 01:21:43,132 [INFO]     24. Diclofenac gastro-resistant / Voltarol tablets (CNS – pain)
+2026-04-21 01:21:43,132 [INFO]     25. Duloxetine / Cymbalta capsules
+2026-04-21 01:21:43,132 [INFO]     26. Empagliflozin / Jardiance tablets
+2026-04-21 01:21:43,132 [INFO]     27. Enalapril / Innovace tablets
+2026-04-21 01:21:43,133 [INFO]     28. Ezetimibe / Ezetrol tablets
+2026-04-21 01:21:43,133 [INFO]     29. Famotidine / Pepcid tablets
+2026-04-21 01:21:43,133 [INFO]     30. Flecainide / Tambocor tablets
+2026-04-21 01:21:43,133 [INFO]     31. Flucloxacillin / Floxapen capsules
+2026-04-21 01:21:43,133 [INFO]     32. Fluocinolone acetonide + Miconazole nitrate ointment
+2026-04-21 01:21:43,133 [INFO]     33. Gastro-resistant Aspirin tablets
+2026-04-21 01:21:43,133 [INFO]     34. Gastro-resistant Aspirin tablets (GI indication)
+2026-04-21 01:21:43,133 [INFO]     35. Gastro-resistant Diclofenac / Voltarol tablets
+2026-04-21 01:21:43,134 [INFO]     36. Gliclazide / Diamicron tablets
+2026-04-21 01:21:43,134 [INFO]     37. Glyceryl trinitrate (GTN) sublingual tablets/spray
+2026-04-21 01:21:43,134 [INFO]     38. Haloperidol / Haldol tablets
+2026-04-21 01:21:43,134 [INFO]     39. Ibuprofen tablets
+2026-04-21 01:21:43,134 [INFO]     40. Isosorbide mononitrate MR / Imdur tablets
+2026-04-21 01:21:43,134 [INFO]     41. Itraconazole / Sporanox capsules
+2026-04-21 01:21:43,134 [INFO]     42. Ivabradine / Procoralan tablets
+2026-04-21 01:21:43,134 [INFO]     43. Lansoprazole gastro-resistant capsules
+2026-04-21 01:21:43,134 [INFO]     44. Letrozole / Femara tablets
+2026-04-21 01:21:43,134 [INFO]     45. Levothyroxine / Euthyrox tablets
+2026-04-21 01:21:43,135 [INFO]     46. Lidocaine injection
+2026-04-21 01:21:43,135 [INFO]     47. Lisinopril / Zestril tablets
+2026-04-21 01:21:43,135 [INFO]     48. Loratadine / Clarityn tablets
+2026-04-21 01:21:43,135 [INFO]     49. Losartan potassium / Cozaar tablets
+2026-04-21 01:21:43,135 [INFO]     50. Meropenem / Meronem injection vials
+2026-04-21 01:21:43,135 [INFO]     51. Metformin / Glucophage tablets
+2026-04-21 01:21:43,135 [INFO]     52. Metoprolol Tartrate / Betaloc tablets
+2026-04-21 01:21:43,135 [INFO]     53. Mupirocin / Bactroban ointment 2%
+2026-04-21 01:21:43,135 [INFO]     54. Nebivolol / Nebilet tablets
+2026-04-21 01:21:43,136 [INFO]     55. Nifedipine modified-release / Adalat LA tablets
+2026-04-21 01:21:43,136 [INFO]     56. Norethindrone acetate / Aygestin tablets
+2026-04-21 01:21:43,136 [INFO]     57. Omeprazole gastro-resistant capsules
+2026-04-21 01:21:43,136 [INFO]     58. Pantoprazole gastro-resistant tablets
+2026-04-21 01:21:43,136 [INFO]     59. Paracetamol tablets
+2026-04-21 01:21:43,136 [INFO]     60. Prochlorperazine / Stemetil tablets
+2026-04-21 01:21:43,136 [INFO]     61. Quetiapine / Seroquel tablets
+2026-04-21 01:21:43,136 [INFO]     62. Ramipril / Tritace capsules
+2026-04-21 01:21:43,136 [INFO]     63. Ranitidine tablets (historical reference)
+2026-04-21 01:21:43,136 [INFO]     64. Ranolazine / Ranexa extended-release tablets
+2026-04-21 01:21:43,136 [INFO]     65. Risperidone / Risperdal tablets
+2026-04-21 01:21:43,137 [INFO]     66. Rivaroxaban / Xarelto tablets
+2026-04-21 01:21:43,137 [INFO]     67. Rosuvastatin / Crestor tablets
+2026-04-21 01:21:43,137 [INFO]     68. Sertraline / Lustral tablets
+2026-04-21 01:21:43,137 [INFO]     69. Sildenafil citrate / Viagra tablets
+2026-04-21 01:21:43,137 [INFO]     70. Sitagliptin phosphate / Januvia tablets
+2026-04-21 01:21:43,137 [INFO]     71. Tizanidine / Zanaflex tablets
+2026-04-21 01:21:43,137 [INFO]     72. Tramadol hydrochloride capsules
+2026-04-21 01:21:43,137 [INFO]     73. Vitamin B1+B6+B12 / Neurobion tablets
+2026-04-21 01:21:43,137 [INFO]     74. Vitamin E capsules
+2026-04-21 01:21:43,137 [INFO]     75. Warfarin tablets
+2026-04-21 01:21:43,138 [INFO] 
+📥 Step 2: Downloading medicine photos from Google Images...
+2026-04-21 01:21:43,543 [INFO] Found 75 photo placeholders with 75 unique medicines
+2026-04-21 01:21:43,544 [INFO] [1/75] Downloading: Apixaban / Thromban pack (query: 'Apixaban / Thromban pack medicine tablet photo')
+2026-04-21 01:21:43,544 [INFO] start crawling...
+2026-04-21 01:21:43,544 [INFO] starting 1 feeder threads...
+2026-04-21 01:21:43,545 [INFO] thread feeder-001 exit
+2026-04-21 01:21:43,545 [INFO] starting 1 parser threads...
+2026-04-21 01:21:43,546 [INFO] starting 1 downloader threads...
+2026-04-21 01:21:44,443 [INFO] parsing result page https://www.google.com/search?q=Apixaban+%2F+Thromban+pack+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:21:48,548 [INFO] no more download task for thread downloader-001
+2026-04-21 01:21:48,548 [INFO] thread downloader-001 exit
+2026-04-21 01:21:49,548 [INFO] Crawling task done!
+2026-04-21 01:21:49,548 [WARNING]   ✗ No image downloaded for: Apixaban / Thromban pack
+2026-04-21 01:21:50,549 [INFO] [2/75] Downloading: Warfarin tablets (query: 'Warfarin tablets medicine tablet photo')
+2026-04-21 01:21:50,551 [INFO] start crawling...
+2026-04-21 01:21:50,551 [INFO] starting 1 feeder threads...
+2026-04-21 01:21:50,552 [INFO] thread feeder-001 exit
+2026-04-21 01:21:50,552 [INFO] starting 1 parser threads...
+2026-04-21 01:21:50,552 [INFO] starting 1 downloader threads...
+2026-04-21 01:21:51,586 [INFO] parsing result page https://www.google.com/search?q=Warfarin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:21:55,560 [INFO] no more download task for thread downloader-001
+2026-04-21 01:21:55,560 [INFO] thread downloader-001 exit
+2026-04-21 01:21:56,556 [INFO] Crawling task done!
+2026-04-21 01:21:56,557 [WARNING]   ✗ No image downloaded for: Warfarin tablets
+2026-04-21 01:21:57,558 [INFO] [3/75] Downloading: Rivaroxaban / Xarelto tablets (query: 'Rivaroxaban / Xarelto tablets medicine tablet photo')
+2026-04-21 01:21:57,559 [INFO] start crawling...
+2026-04-21 01:21:57,560 [INFO] starting 1 feeder threads...
+2026-04-21 01:21:57,560 [INFO] thread feeder-001 exit
+2026-04-21 01:21:57,560 [INFO] starting 1 parser threads...
+2026-04-21 01:21:57,561 [INFO] starting 1 downloader threads...
+2026-04-21 01:21:58,652 [INFO] parsing result page https://www.google.com/search?q=Rivaroxaban+%2F+Xarelto+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:02,568 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:02,569 [INFO] thread downloader-001 exit
+2026-04-21 01:22:03,564 [INFO] Crawling task done!
+2026-04-21 01:22:03,565 [WARNING]   ✗ No image downloaded for: Rivaroxaban / Xarelto tablets
+2026-04-21 01:22:04,566 [INFO] [4/75] Downloading: Gastro-resistant Aspirin tablets (query: 'Gastro-resistant Aspirin tablets medicine tablet photo')
+2026-04-21 01:22:04,567 [INFO] start crawling...
+2026-04-21 01:22:04,568 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:04,568 [INFO] thread feeder-001 exit
+2026-04-21 01:22:04,568 [INFO] starting 1 parser threads...
+2026-04-21 01:22:04,569 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:05,922 [INFO] parsing result page https://www.google.com/search?q=Gastro-resistant+Aspirin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:09,575 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:09,575 [INFO] thread downloader-001 exit
+2026-04-21 01:22:10,572 [INFO] Crawling task done!
+2026-04-21 01:22:10,573 [WARNING]   ✗ No image downloaded for: Gastro-resistant Aspirin tablets
+2026-04-21 01:22:11,574 [INFO] [5/75] Downloading: Aspirin 100 mg & Glycine 45 mg tablets (query: 'Aspirin 100 mg & Glycine 45 mg tablets medicine tablet photo')
+2026-04-21 01:22:11,575 [INFO] start crawling...
+2026-04-21 01:22:11,576 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:11,576 [INFO] thread feeder-001 exit
+2026-04-21 01:22:11,576 [INFO] starting 1 parser threads...
+2026-04-21 01:22:11,576 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:12,479 [INFO] parsing result page https://www.google.com/search?q=Aspirin+100+mg+%26+Glycine+45+mg+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:16,589 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:16,589 [INFO] thread downloader-001 exit
+2026-04-21 01:22:17,579 [INFO] Crawling task done!
+2026-04-21 01:22:17,580 [WARNING]   ✗ No image downloaded for: Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 01:22:18,582 [INFO] [6/75] Downloading: Clopidogrel / Plavix tablets (query: 'Clopidogrel / Plavix tablets medicine tablet photo')
+2026-04-21 01:22:18,583 [INFO] start crawling...
+2026-04-21 01:22:18,584 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:18,584 [INFO] thread feeder-001 exit
+2026-04-21 01:22:18,584 [INFO] starting 1 parser threads...
+2026-04-21 01:22:18,584 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:19,747 [INFO] parsing result page https://www.google.com/search?q=Clopidogrel+%2F+Plavix+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:23,589 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:23,589 [INFO] thread downloader-001 exit
+2026-04-21 01:22:24,587 [INFO] Crawling task done!
+2026-04-21 01:22:24,587 [WARNING]   ✗ No image downloaded for: Clopidogrel / Plavix tablets
+2026-04-21 01:22:25,589 [INFO] [7/75] Downloading: Ramipril / Tritace capsules (query: 'Ramipril / Tritace capsules medicine tablet photo')
+2026-04-21 01:22:25,590 [INFO] start crawling...
+2026-04-21 01:22:25,591 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:25,591 [INFO] thread feeder-001 exit
+2026-04-21 01:22:25,591 [INFO] starting 1 parser threads...
+2026-04-21 01:22:25,591 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:27,427 [INFO] parsing result page https://www.google.com/search?q=Ramipril+%2F+Tritace+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:30,598 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:30,598 [INFO] thread downloader-001 exit
+2026-04-21 01:22:31,594 [INFO] Crawling task done!
+2026-04-21 01:22:31,595 [WARNING]   ✗ No image downloaded for: Ramipril / Tritace capsules
+2026-04-21 01:22:32,596 [INFO] [8/75] Downloading: Enalapril / Innovace tablets (query: 'Enalapril / Innovace tablets medicine tablet photo')
+2026-04-21 01:22:32,598 [INFO] start crawling...
+2026-04-21 01:22:32,598 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:32,598 [INFO] thread feeder-001 exit
+2026-04-21 01:22:32,598 [INFO] starting 1 parser threads...
+2026-04-21 01:22:32,599 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:33,645 [INFO] parsing result page https://www.google.com/search?q=Enalapril+%2F+Innovace+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:37,606 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:37,606 [INFO] thread downloader-001 exit
+2026-04-21 01:22:38,602 [INFO] Crawling task done!
+2026-04-21 01:22:38,602 [WARNING]   ✗ No image downloaded for: Enalapril / Innovace tablets
+2026-04-21 01:22:39,604 [INFO] [9/75] Downloading: Lisinopril / Zestril tablets (query: 'Lisinopril / Zestril tablets medicine tablet photo')
+2026-04-21 01:22:39,605 [INFO] start crawling...
+2026-04-21 01:22:39,606 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:39,606 [INFO] thread feeder-001 exit
+2026-04-21 01:22:39,606 [INFO] starting 1 parser threads...
+2026-04-21 01:22:39,607 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:40,441 [INFO] parsing result page https://www.google.com/search?q=Lisinopril+%2F+Zestril+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:44,617 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:44,617 [INFO] thread downloader-001 exit
+2026-04-21 01:22:45,610 [INFO] Crawling task done!
+2026-04-21 01:22:45,611 [WARNING]   ✗ No image downloaded for: Lisinopril / Zestril tablets
+2026-04-21 01:22:46,612 [INFO] [10/75] Downloading: Losartan potassium / Cozaar tablets (query: 'Losartan potassium / Cozaar tablets medicine tablet photo')
+2026-04-21 01:22:46,614 [INFO] start crawling...
+2026-04-21 01:22:46,614 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:46,615 [INFO] thread feeder-001 exit
+2026-04-21 01:22:46,615 [INFO] starting 1 parser threads...
+2026-04-21 01:22:46,615 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:47,600 [INFO] parsing result page https://www.google.com/search?q=Losartan+potassium+%2F+Cozaar+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:51,617 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:51,617 [INFO] thread downloader-001 exit
+2026-04-21 01:22:51,618 [INFO] Crawling task done!
+2026-04-21 01:22:51,618 [WARNING]   ✗ No image downloaded for: Losartan potassium / Cozaar tablets
+2026-04-21 01:22:52,619 [INFO] [11/75] Downloading: Bisoprolol fumarate / Cardicor tablets (query: 'Bisoprolol fumarate / Cardicor tablets medicine tablet photo')
+2026-04-21 01:22:52,621 [INFO] start crawling...
+2026-04-21 01:22:52,621 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:52,621 [INFO] thread feeder-001 exit
+2026-04-21 01:22:52,621 [INFO] starting 1 parser threads...
+2026-04-21 01:22:52,622 [INFO] starting 1 downloader threads...
+2026-04-21 01:22:53,744 [INFO] parsing result page https://www.google.com/search?q=Bisoprolol+fumarate+%2F+Cardicor+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:22:57,625 [INFO] no more download task for thread downloader-001
+2026-04-21 01:22:57,626 [INFO] thread downloader-001 exit
+2026-04-21 01:22:58,624 [INFO] Crawling task done!
+2026-04-21 01:22:58,625 [WARNING]   ✗ No image downloaded for: Bisoprolol fumarate / Cardicor tablets
+2026-04-21 01:22:59,626 [INFO] [12/75] Downloading: Metoprolol Tartrate / Betaloc tablets (query: 'Metoprolol Tartrate / Betaloc tablets medicine tablet photo')
+2026-04-21 01:22:59,628 [INFO] start crawling...
+2026-04-21 01:22:59,628 [INFO] starting 1 feeder threads...
+2026-04-21 01:22:59,628 [INFO] thread feeder-001 exit
+2026-04-21 01:22:59,628 [INFO] starting 1 parser threads...
+2026-04-21 01:22:59,629 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:00,708 [INFO] parsing result page https://www.google.com/search?q=Metoprolol+Tartrate+%2F+Betaloc+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:04,631 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:04,631 [INFO] thread downloader-001 exit
+2026-04-21 01:23:05,631 [INFO] Crawling task done!
+2026-04-21 01:23:05,632 [WARNING]   ✗ No image downloaded for: Metoprolol Tartrate / Betaloc tablets
+2026-04-21 01:23:06,634 [INFO] [13/75] Downloading: Nebivolol / Nebilet tablets (query: 'Nebivolol / Nebilet tablets medicine tablet photo')
+2026-04-21 01:23:06,635 [INFO] start crawling...
+2026-04-21 01:23:06,635 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:06,636 [INFO] thread feeder-001 exit
+2026-04-21 01:23:06,636 [INFO] starting 1 parser threads...
+2026-04-21 01:23:06,636 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:07,874 [INFO] parsing result page https://www.google.com/search?q=Nebivolol+%2F+Nebilet+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:11,637 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:11,638 [INFO] thread downloader-001 exit
+2026-04-21 01:23:11,638 [INFO] Crawling task done!
+2026-04-21 01:23:11,639 [WARNING]   ✗ No image downloaded for: Nebivolol / Nebilet tablets
+2026-04-21 01:23:12,640 [INFO] [14/75] Downloading: Amlodipine / Istin tablets (query: 'Amlodipine / Istin tablets medicine tablet photo')
+2026-04-21 01:23:12,641 [INFO] start crawling...
+2026-04-21 01:23:12,642 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:12,642 [INFO] thread feeder-001 exit
+2026-04-21 01:23:12,642 [INFO] starting 1 parser threads...
+2026-04-21 01:23:12,643 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:13,524 [INFO] parsing result page https://www.google.com/search?q=Amlodipine+%2F+Istin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:17,654 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:17,654 [INFO] thread downloader-001 exit
+2026-04-21 01:23:18,645 [INFO] Crawling task done!
+2026-04-21 01:23:18,646 [WARNING]   ✗ No image downloaded for: Amlodipine / Istin tablets
+2026-04-21 01:23:19,647 [INFO] [15/75] Downloading: Cilnidipine tablets (query: 'Cilnidipine tablets medicine tablet photo')
+2026-04-21 01:23:19,649 [INFO] start crawling...
+2026-04-21 01:23:19,649 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:19,650 [INFO] thread feeder-001 exit
+2026-04-21 01:23:19,650 [INFO] starting 1 parser threads...
+2026-04-21 01:23:19,650 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:20,779 [INFO] parsing result page https://www.google.com/search?q=Cilnidipine+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:24,663 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:24,663 [INFO] thread downloader-001 exit
+2026-04-21 01:23:25,653 [INFO] Crawling task done!
+2026-04-21 01:23:25,654 [WARNING]   ✗ No image downloaded for: Cilnidipine tablets
+2026-04-21 01:23:26,655 [INFO] [16/75] Downloading: Nifedipine modified-release / Adalat LA tablets (query: 'Nifedipine modified-release / Adalat LA tablets medicine tablet photo')
+2026-04-21 01:23:26,657 [INFO] start crawling...
+2026-04-21 01:23:26,657 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:26,657 [INFO] thread feeder-001 exit
+2026-04-21 01:23:26,657 [INFO] starting 1 parser threads...
+2026-04-21 01:23:26,658 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:27,844 [INFO] parsing result page https://www.google.com/search?q=Nifedipine+modified-release+%2F+Adalat+LA+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:31,664 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:31,665 [INFO] thread downloader-001 exit
+2026-04-21 01:23:32,661 [INFO] Crawling task done!
+2026-04-21 01:23:32,661 [WARNING]   ✗ No image downloaded for: Nifedipine modified-release / Adalat LA tablets
+2026-04-21 01:23:33,663 [INFO] [17/75] Downloading: Ezetimibe / Ezetrol tablets (query: 'Ezetimibe / Ezetrol tablets medicine tablet photo')
+2026-04-21 01:23:33,664 [INFO] start crawling...
+2026-04-21 01:23:33,665 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:33,665 [INFO] thread feeder-001 exit
+2026-04-21 01:23:33,665 [INFO] starting 1 parser threads...
+2026-04-21 01:23:33,666 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:34,809 [INFO] parsing result page https://www.google.com/search?q=Ezetimibe+%2F+Ezetrol+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:38,682 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:38,682 [INFO] thread downloader-001 exit
+2026-04-21 01:23:39,669 [INFO] Crawling task done!
+2026-04-21 01:23:39,670 [WARNING]   ✗ No image downloaded for: Ezetimibe / Ezetrol tablets
+2026-04-21 01:23:40,671 [INFO] [18/75] Downloading: Rosuvastatin / Crestor tablets (query: 'Rosuvastatin / Crestor tablets medicine tablet photo')
+2026-04-21 01:23:40,673 [INFO] start crawling...
+2026-04-21 01:23:40,674 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:40,674 [INFO] thread feeder-001 exit
+2026-04-21 01:23:40,674 [INFO] starting 1 parser threads...
+2026-04-21 01:23:40,675 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:41,976 [INFO] parsing result page https://www.google.com/search?q=Rosuvastatin+%2F+Crestor+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:45,687 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:45,688 [INFO] thread downloader-001 exit
+2026-04-21 01:23:46,678 [INFO] Crawling task done!
+2026-04-21 01:23:46,679 [WARNING]   ✗ No image downloaded for: Rosuvastatin / Crestor tablets
+2026-04-21 01:23:47,680 [INFO] [19/75] Downloading: Atorvastatin / Lipitor tablets (query: 'Atorvastatin / Lipitor tablets medicine tablet photo')
+2026-04-21 01:23:47,682 [INFO] start crawling...
+2026-04-21 01:23:47,682 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:47,682 [INFO] thread feeder-001 exit
+2026-04-21 01:23:47,683 [INFO] starting 1 parser threads...
+2026-04-21 01:23:47,683 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:48,837 [INFO] parsing result page https://www.google.com/search?q=Atorvastatin+%2F+Lipitor+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:52,690 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:52,690 [INFO] thread downloader-001 exit
+2026-04-21 01:23:53,686 [INFO] Crawling task done!
+2026-04-21 01:23:53,687 [WARNING]   ✗ No image downloaded for: Atorvastatin / Lipitor tablets
+2026-04-21 01:23:54,688 [INFO] [20/75] Downloading: Sitagliptin phosphate / Januvia tablets (query: 'Sitagliptin phosphate / Januvia tablets medicine tablet photo')
+2026-04-21 01:23:54,690 [INFO] start crawling...
+2026-04-21 01:23:54,690 [INFO] starting 1 feeder threads...
+2026-04-21 01:23:54,691 [INFO] thread feeder-001 exit
+2026-04-21 01:23:54,691 [INFO] starting 1 parser threads...
+2026-04-21 01:23:54,692 [INFO] starting 1 downloader threads...
+2026-04-21 01:23:55,903 [INFO] parsing result page https://www.google.com/search?q=Sitagliptin+phosphate+%2F+Januvia+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:23:59,700 [INFO] no more download task for thread downloader-001
+2026-04-21 01:23:59,701 [INFO] thread downloader-001 exit
+2026-04-21 01:24:00,694 [INFO] Crawling task done!
+2026-04-21 01:24:00,695 [WARNING]   ✗ No image downloaded for: Sitagliptin phosphate / Januvia tablets
+2026-04-21 01:24:01,696 [INFO] [21/75] Downloading: Gliclazide / Diamicron tablets (query: 'Gliclazide / Diamicron tablets medicine tablet photo')
+2026-04-21 01:24:01,698 [INFO] start crawling...
+2026-04-21 01:24:01,698 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:01,699 [INFO] thread feeder-001 exit
+2026-04-21 01:24:01,699 [INFO] starting 1 parser threads...
+2026-04-21 01:24:01,699 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:02,661 [INFO] parsing result page https://www.google.com/search?q=Gliclazide+%2F+Diamicron+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:06,707 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:06,707 [INFO] thread downloader-001 exit
+2026-04-21 01:24:07,702 [INFO] Crawling task done!
+2026-04-21 01:24:07,703 [WARNING]   ✗ No image downloaded for: Gliclazide / Diamicron tablets
+2026-04-21 01:24:08,704 [INFO] [22/75] Downloading: Empagliflozin / Jardiance tablets (query: 'Empagliflozin / Jardiance tablets medicine tablet photo')
+2026-04-21 01:24:08,706 [INFO] start crawling...
+2026-04-21 01:24:08,706 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:08,707 [INFO] thread feeder-001 exit
+2026-04-21 01:24:08,707 [INFO] starting 1 parser threads...
+2026-04-21 01:24:08,708 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:09,549 [INFO] parsing result page https://www.google.com/search?q=Empagliflozin+%2F+Jardiance+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:13,718 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:13,718 [INFO] thread downloader-001 exit
+2026-04-21 01:24:14,710 [INFO] Crawling task done!
+2026-04-21 01:24:14,711 [WARNING]   ✗ No image downloaded for: Empagliflozin / Jardiance tablets
+2026-04-21 01:24:15,713 [INFO] [23/75] Downloading: Metformin / Glucophage tablets (query: 'Metformin / Glucophage tablets medicine tablet photo')
+2026-04-21 01:24:15,715 [INFO] start crawling...
+2026-04-21 01:24:15,715 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:15,716 [INFO] thread feeder-001 exit
+2026-04-21 01:24:15,716 [INFO] starting 1 parser threads...
+2026-04-21 01:24:15,717 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:16,803 [INFO] parsing result page https://www.google.com/search?q=Metformin+%2F+Glucophage+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:20,718 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:20,718 [INFO] thread downloader-001 exit
+2026-04-21 01:24:20,719 [INFO] Crawling task done!
+2026-04-21 01:24:20,720 [WARNING]   ✗ No image downloaded for: Metformin / Glucophage tablets
+2026-04-21 01:24:21,721 [INFO] [24/75] Downloading: Sildenafil citrate / Viagra tablets (query: 'Sildenafil citrate / Viagra tablets medicine tablet photo')
+2026-04-21 01:24:21,724 [INFO] start crawling...
+2026-04-21 01:24:21,724 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:21,725 [INFO] thread feeder-001 exit
+2026-04-21 01:24:21,725 [INFO] starting 1 parser threads...
+2026-04-21 01:24:21,725 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:23,064 [INFO] parsing result page https://www.google.com/search?q=Sildenafil+citrate+%2F+Viagra+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:26,730 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:26,730 [INFO] thread downloader-001 exit
+2026-04-21 01:24:27,727 [INFO] Crawling task done!
+2026-04-21 01:24:27,728 [WARNING]   ✗ No image downloaded for: Sildenafil citrate / Viagra tablets
+2026-04-21 01:24:28,730 [INFO] [25/75] Downloading: Glyceryl trinitrate (GTN) sublingual tablets/spray (query: 'Glyceryl trinitrate (GTN) sublingual tablets/spray medicine tablet photo')
+2026-04-21 01:24:28,732 [INFO] start crawling...
+2026-04-21 01:24:28,732 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:28,732 [INFO] thread feeder-001 exit
+2026-04-21 01:24:28,732 [INFO] starting 1 parser threads...
+2026-04-21 01:24:28,733 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:29,874 [INFO] parsing result page https://www.google.com/search?q=Glyceryl+trinitrate+%28GTN%29+sublingual+tablets%2Fspray+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:33,735 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:33,735 [INFO] thread downloader-001 exit
+2026-04-21 01:24:33,736 [INFO] Crawling task done!
+2026-04-21 01:24:33,736 [WARNING]   ✗ No image downloaded for: Glyceryl trinitrate (GTN) sublingual tablets/spray
+2026-04-21 01:24:34,738 [INFO] [26/75] Downloading: Isosorbide mononitrate MR / Imdur tablets (query: 'Isosorbide mononitrate MR / Imdur tablets medicine tablet photo')
+2026-04-21 01:24:34,740 [INFO] start crawling...
+2026-04-21 01:24:34,740 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:34,740 [INFO] thread feeder-001 exit
+2026-04-21 01:24:34,741 [INFO] starting 1 parser threads...
+2026-04-21 01:24:34,741 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:36,086 [INFO] parsing result page https://www.google.com/search?q=Isosorbide+mononitrate+MR+%2F+Imdur+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:39,751 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:39,752 [INFO] thread downloader-001 exit
+2026-04-21 01:24:40,744 [INFO] Crawling task done!
+2026-04-21 01:24:40,745 [WARNING]   ✗ No image downloaded for: Isosorbide mononitrate MR / Imdur tablets
+2026-04-21 01:24:41,746 [INFO] [27/75] Downloading: Ranolazine / Ranexa extended-release tablets (query: 'Ranolazine / Ranexa extended-release tablets medicine tablet photo')
+2026-04-21 01:24:41,748 [INFO] start crawling...
+2026-04-21 01:24:41,748 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:41,749 [INFO] thread feeder-001 exit
+2026-04-21 01:24:41,749 [INFO] starting 1 parser threads...
+2026-04-21 01:24:41,749 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:44,032 [INFO] parsing result page https://www.google.com/search?q=Ranolazine+%2F+Ranexa+extended-release+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:46,754 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:46,755 [INFO] thread downloader-001 exit
+2026-04-21 01:24:47,752 [INFO] Crawling task done!
+2026-04-21 01:24:47,753 [WARNING]   ✗ No image downloaded for: Ranolazine / Ranexa extended-release tablets
+2026-04-21 01:24:48,754 [INFO] [28/75] Downloading: Amiodarone / Cordarone tablets (query: 'Amiodarone / Cordarone tablets medicine tablet photo')
+2026-04-21 01:24:48,756 [INFO] start crawling...
+2026-04-21 01:24:48,757 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:48,757 [INFO] thread feeder-001 exit
+2026-04-21 01:24:48,757 [INFO] starting 1 parser threads...
+2026-04-21 01:24:48,758 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:49,891 [INFO] parsing result page https://www.google.com/search?q=Amiodarone+%2F+Cordarone+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:53,760 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:53,760 [INFO] thread downloader-001 exit
+2026-04-21 01:24:53,761 [INFO] Crawling task done!
+2026-04-21 01:24:53,761 [WARNING]   ✗ No image downloaded for: Amiodarone / Cordarone tablets
+2026-04-21 01:24:54,762 [INFO] [29/75] Downloading: Flecainide / Tambocor tablets (query: 'Flecainide / Tambocor tablets medicine tablet photo')
+2026-04-21 01:24:54,764 [INFO] start crawling...
+2026-04-21 01:24:54,765 [INFO] starting 1 feeder threads...
+2026-04-21 01:24:54,765 [INFO] thread feeder-001 exit
+2026-04-21 01:24:54,765 [INFO] starting 1 parser threads...
+2026-04-21 01:24:54,766 [INFO] starting 1 downloader threads...
+2026-04-21 01:24:56,320 [INFO] parsing result page https://www.google.com/search?q=Flecainide+%2F+Tambocor+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:24:59,779 [INFO] no more download task for thread downloader-001
+2026-04-21 01:24:59,780 [INFO] thread downloader-001 exit
+2026-04-21 01:25:00,768 [INFO] Crawling task done!
+2026-04-21 01:25:00,769 [WARNING]   ✗ No image downloaded for: Flecainide / Tambocor tablets
+2026-04-21 01:25:01,770 [INFO] [30/75] Downloading: Lidocaine injection (query: 'Lidocaine injection medicine tablet photo')
+2026-04-21 01:25:01,772 [INFO] start crawling...
+2026-04-21 01:25:01,772 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:01,773 [INFO] thread feeder-001 exit
+2026-04-21 01:25:01,773 [INFO] starting 1 parser threads...
+2026-04-21 01:25:01,773 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:02,787 [INFO] parsing result page https://www.google.com/search?q=Lidocaine+injection+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:06,781 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:06,781 [INFO] thread downloader-001 exit
+2026-04-21 01:25:07,776 [INFO] Crawling task done!
+2026-04-21 01:25:07,777 [WARNING]   ✗ No image downloaded for: Lidocaine injection
+2026-04-21 01:25:08,779 [INFO] [31/75] Downloading: Ivabradine / Procoralan tablets (query: 'Ivabradine / Procoralan tablets medicine tablet photo')
+2026-04-21 01:25:08,781 [INFO] start crawling...
+2026-04-21 01:25:08,781 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:08,781 [INFO] thread feeder-001 exit
+2026-04-21 01:25:08,781 [INFO] starting 1 parser threads...
+2026-04-21 01:25:08,782 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:09,737 [INFO] parsing result page https://www.google.com/search?q=Ivabradine+%2F+Procoralan+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:13,788 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:13,788 [INFO] thread downloader-001 exit
+2026-04-21 01:25:14,785 [INFO] Crawling task done!
+2026-04-21 01:25:14,786 [WARNING]   ✗ No image downloaded for: Ivabradine / Procoralan tablets
+2026-04-21 01:25:15,787 [INFO] [32/75] Downloading: Cefalexin / Keflex capsules (query: 'Cefalexin / Keflex capsules medicine tablet photo')
+2026-04-21 01:25:15,789 [INFO] start crawling...
+2026-04-21 01:25:15,789 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:15,790 [INFO] thread feeder-001 exit
+2026-04-21 01:25:15,790 [INFO] starting 1 parser threads...
+2026-04-21 01:25:15,790 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:18,747 [INFO] parsing result page https://www.google.com/search?q=Cefalexin+%2F+Keflex+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:20,796 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:20,796 [INFO] thread downloader-001 exit
+2026-04-21 01:25:21,793 [INFO] Crawling task done!
+2026-04-21 01:25:21,794 [WARNING]   ✗ No image downloaded for: Cefalexin / Keflex capsules
+2026-04-21 01:25:22,795 [INFO] [33/75] Downloading: Ciprofloxacin / Ciproxin tablets (query: 'Ciprofloxacin / Ciproxin tablets medicine tablet photo')
+2026-04-21 01:25:22,797 [INFO] start crawling...
+2026-04-21 01:25:22,797 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:22,797 [INFO] thread feeder-001 exit
+2026-04-21 01:25:22,798 [INFO] starting 1 parser threads...
+2026-04-21 01:25:22,798 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:27,805 [INFO] downloader-001 is waiting for new download tasks
+2026-04-21 01:25:28,562 [ERROR] Exception caught when fetching page https://www.google.com/search?q=Ciprofloxacin+%2F+Ciproxin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch, error: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2026-04-21 01:25:31,546 [INFO] parsing result page https://www.google.com/search?q=Ciprofloxacin+%2F+Ciproxin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:32,818 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:32,819 [INFO] thread downloader-001 exit
+2026-04-21 01:25:33,803 [INFO] Crawling task done!
+2026-04-21 01:25:33,803 [WARNING]   ✗ No image downloaded for: Ciprofloxacin / Ciproxin tablets
+2026-04-21 01:25:34,805 [INFO] [34/75] Downloading: Azithromycin / Zithromax capsules (query: 'Azithromycin / Zithromax capsules medicine tablet photo')
+2026-04-21 01:25:34,805 [INFO] start crawling...
+2026-04-21 01:25:34,806 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:34,806 [INFO] thread feeder-001 exit
+2026-04-21 01:25:34,806 [INFO] starting 1 parser threads...
+2026-04-21 01:25:34,807 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:36,090 [INFO] parsing result page https://www.google.com/search?q=Azithromycin+%2F+Zithromax+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:39,812 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:39,812 [INFO] thread downloader-001 exit
+2026-04-21 01:25:40,809 [INFO] Crawling task done!
+2026-04-21 01:25:40,810 [WARNING]   ✗ No image downloaded for: Azithromycin / Zithromax capsules
+2026-04-21 01:25:41,812 [INFO] [35/75] Downloading: Cefuroxime Axetil / Zinnat tablets (query: 'Cefuroxime Axetil / Zinnat tablets medicine tablet photo')
+2026-04-21 01:25:41,813 [INFO] start crawling...
+2026-04-21 01:25:41,813 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:41,814 [INFO] thread feeder-001 exit
+2026-04-21 01:25:41,814 [INFO] starting 1 parser threads...
+2026-04-21 01:25:41,814 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:43,016 [INFO] parsing result page https://www.google.com/search?q=Cefuroxime+Axetil+%2F+Zinnat+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:46,818 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:46,818 [INFO] thread downloader-001 exit
+2026-04-21 01:25:47,816 [INFO] Crawling task done!
+2026-04-21 01:25:47,817 [WARNING]   ✗ No image downloaded for: Cefuroxime Axetil / Zinnat tablets
+2026-04-21 01:25:48,818 [INFO] [36/75] Downloading: Flucloxacillin / Floxapen capsules (query: 'Flucloxacillin / Floxapen capsules medicine tablet photo')
+2026-04-21 01:25:48,820 [INFO] start crawling...
+2026-04-21 01:25:48,820 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:48,821 [INFO] thread feeder-001 exit
+2026-04-21 01:25:48,821 [INFO] starting 1 parser threads...
+2026-04-21 01:25:48,821 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:50,184 [INFO] parsing result page https://www.google.com/search?q=Flucloxacillin+%2F+Floxapen+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:25:53,833 [INFO] no more download task for thread downloader-001
+2026-04-21 01:25:53,833 [INFO] thread downloader-001 exit
+2026-04-21 01:25:54,823 [INFO] Crawling task done!
+2026-04-21 01:25:54,824 [WARNING]   ✗ No image downloaded for: Flucloxacillin / Floxapen capsules
+2026-04-21 01:25:55,826 [INFO] [37/75] Downloading: Meropenem / Meronem injection vials (query: 'Meropenem / Meronem injection vials medicine tablet photo')
+2026-04-21 01:25:55,827 [INFO] start crawling...
+2026-04-21 01:25:55,827 [INFO] starting 1 feeder threads...
+2026-04-21 01:25:55,828 [INFO] thread feeder-001 exit
+2026-04-21 01:25:55,828 [INFO] starting 1 parser threads...
+2026-04-21 01:25:55,828 [INFO] starting 1 downloader threads...
+2026-04-21 01:25:56,635 [INFO] parsing result page https://www.google.com/search?q=Meropenem+%2F+Meronem+injection+vials+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:00,831 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:00,831 [INFO] thread downloader-001 exit
+2026-04-21 01:26:01,831 [INFO] Crawling task done!
+2026-04-21 01:26:01,832 [WARNING]   ✗ No image downloaded for: Meropenem / Meronem injection vials
+2026-04-21 01:26:02,833 [INFO] [38/75] Downloading: Itraconazole / Sporanox capsules (query: 'Itraconazole / Sporanox capsules medicine tablet photo')
+2026-04-21 01:26:02,834 [INFO] start crawling...
+2026-04-21 01:26:02,834 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:02,835 [INFO] thread feeder-001 exit
+2026-04-21 01:26:02,835 [INFO] starting 1 parser threads...
+2026-04-21 01:26:02,836 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:03,830 [INFO] parsing result page https://www.google.com/search?q=Itraconazole+%2F+Sporanox+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:07,853 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:07,853 [INFO] thread downloader-001 exit
+2026-04-21 01:26:08,838 [INFO] Crawling task done!
+2026-04-21 01:26:08,839 [WARNING]   ✗ No image downloaded for: Itraconazole / Sporanox capsules
+2026-04-21 01:26:09,840 [INFO] [39/75] Downloading: Deplus (Cholecalciferol / Vitamin D3) tablets (query: 'Deplus (Cholecalciferol / Vitamin D3) tablets medicine tablet photo')
+2026-04-21 01:26:09,842 [INFO] start crawling...
+2026-04-21 01:26:09,842 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:09,842 [INFO] thread feeder-001 exit
+2026-04-21 01:26:09,842 [INFO] starting 1 parser threads...
+2026-04-21 01:26:09,843 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:10,670 [INFO] parsing result page https://www.google.com/search?q=Deplus+%28Cholecalciferol+%2F+Vitamin+D3%29+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:14,857 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:14,858 [INFO] thread downloader-001 exit
+2026-04-21 01:26:15,846 [INFO] Crawling task done!
+2026-04-21 01:26:15,846 [WARNING]   ✗ No image downloaded for: Deplus (Cholecalciferol / Vitamin D3) tablets
+2026-04-21 01:26:16,848 [INFO] [40/75] Downloading: Vitamin B1+B6+B12 / Neurobion tablets (query: 'Vitamin B1+B6+B12 / Neurobion tablets medicine tablet photo')
+2026-04-21 01:26:16,849 [INFO] start crawling...
+2026-04-21 01:26:16,849 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:16,850 [INFO] thread feeder-001 exit
+2026-04-21 01:26:16,850 [INFO] starting 1 parser threads...
+2026-04-21 01:26:16,850 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:17,935 [INFO] parsing result page https://www.google.com/search?q=Vitamin+B1%2BB6%2BB12+%2F+Neurobion+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:21,851 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:21,852 [INFO] thread downloader-001 exit
+2026-04-21 01:26:21,853 [INFO] Crawling task done!
+2026-04-21 01:26:21,854 [WARNING]   ✗ No image downloaded for: Vitamin B1+B6+B12 / Neurobion tablets
+2026-04-21 01:26:22,855 [INFO] [41/75] Downloading: Vitamin E capsules (query: 'Vitamin E capsules medicine tablet photo')
+2026-04-21 01:26:22,857 [INFO] start crawling...
+2026-04-21 01:26:22,857 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:22,857 [INFO] thread feeder-001 exit
+2026-04-21 01:26:22,857 [INFO] starting 1 parser threads...
+2026-04-21 01:26:22,858 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:23,878 [INFO] parsing result page https://www.google.com/search?q=Vitamin+E+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:27,866 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:27,866 [INFO] thread downloader-001 exit
+2026-04-21 01:26:28,861 [INFO] Crawling task done!
+2026-04-21 01:26:28,861 [WARNING]   ✗ No image downloaded for: Vitamin E capsules
+2026-04-21 01:26:29,862 [INFO] [42/75] Downloading: Alendronate sodium / Fosamax tablets (query: 'Alendronate sodium / Fosamax tablets medicine tablet photo')
+2026-04-21 01:26:29,864 [INFO] start crawling...
+2026-04-21 01:26:29,864 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:29,864 [INFO] thread feeder-001 exit
+2026-04-21 01:26:29,864 [INFO] starting 1 parser threads...
+2026-04-21 01:26:29,865 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:31,042 [INFO] parsing result page https://www.google.com/search?q=Alendronate+sodium+%2F+Fosamax+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:34,867 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:34,867 [INFO] thread downloader-001 exit
+2026-04-21 01:26:35,868 [INFO] Crawling task done!
+2026-04-21 01:26:35,868 [WARNING]   ✗ No image downloaded for: Alendronate sodium / Fosamax tablets
+2026-04-21 01:26:36,869 [INFO] [43/75] Downloading: Levothyroxine / Euthyrox tablets (query: 'Levothyroxine / Euthyrox tablets medicine tablet photo')
+2026-04-21 01:26:36,871 [INFO] start crawling...
+2026-04-21 01:26:36,871 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:36,872 [INFO] thread feeder-001 exit
+2026-04-21 01:26:36,872 [INFO] starting 1 parser threads...
+2026-04-21 01:26:36,872 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:37,953 [INFO] parsing result page https://www.google.com/search?q=Levothyroxine+%2F+Euthyrox+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:41,878 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:41,879 [INFO] thread downloader-001 exit
+2026-04-21 01:26:42,875 [INFO] Crawling task done!
+2026-04-21 01:26:42,876 [WARNING]   ✗ No image downloaded for: Levothyroxine / Euthyrox tablets
+2026-04-21 01:26:43,877 [INFO] [44/75] Downloading: Cetirizine / Zirtek tablets (query: 'Cetirizine / Zirtek tablets medicine tablet photo')
+2026-04-21 01:26:43,879 [INFO] start crawling...
+2026-04-21 01:26:43,879 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:43,880 [INFO] thread feeder-001 exit
+2026-04-21 01:26:43,880 [INFO] starting 1 parser threads...
+2026-04-21 01:26:43,880 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:45,277 [INFO] parsing result page https://www.google.com/search?q=Cetirizine+%2F+Zirtek+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:48,888 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:48,889 [INFO] thread downloader-001 exit
+2026-04-21 01:26:49,884 [INFO] Crawling task done!
+2026-04-21 01:26:49,884 [WARNING]   ✗ No image downloaded for: Cetirizine / Zirtek tablets
+2026-04-21 01:26:50,886 [INFO] [45/75] Downloading: Loratadine / Clarityn tablets (query: 'Loratadine / Clarityn tablets medicine tablet photo')
+2026-04-21 01:26:50,888 [INFO] start crawling...
+2026-04-21 01:26:50,888 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:50,888 [INFO] thread feeder-001 exit
+2026-04-21 01:26:50,889 [INFO] starting 1 parser threads...
+2026-04-21 01:26:50,889 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:53,469 [INFO] parsing result page https://www.google.com/search?q=Loratadine+%2F+Clarityn+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:26:55,895 [INFO] no more download task for thread downloader-001
+2026-04-21 01:26:55,896 [INFO] thread downloader-001 exit
+2026-04-21 01:26:56,892 [INFO] Crawling task done!
+2026-04-21 01:26:56,893 [WARNING]   ✗ No image downloaded for: Loratadine / Clarityn tablets
+2026-04-21 01:26:57,894 [INFO] [46/75] Downloading: Chlorpheniramine / Piriton tablets (query: 'Chlorpheniramine / Piriton tablets medicine tablet photo')
+2026-04-21 01:26:57,896 [INFO] start crawling...
+2026-04-21 01:26:57,897 [INFO] starting 1 feeder threads...
+2026-04-21 01:26:57,897 [INFO] thread feeder-001 exit
+2026-04-21 01:26:57,897 [INFO] starting 1 parser threads...
+2026-04-21 01:26:57,898 [INFO] starting 1 downloader threads...
+2026-04-21 01:26:59,336 [INFO] parsing result page https://www.google.com/search?q=Chlorpheniramine+%2F+Piriton+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:02,902 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:02,902 [INFO] thread downloader-001 exit
+2026-04-21 01:27:03,901 [INFO] Crawling task done!
+2026-04-21 01:27:03,902 [WARNING]   ✗ No image downloaded for: Chlorpheniramine / Piriton tablets
+2026-04-21 01:27:04,903 [INFO] [47/75] Downloading: Mupirocin / Bactroban ointment 2% (query: 'Mupirocin / Bactroban ointment 2% medicine tablet photo')
+2026-04-21 01:27:04,905 [INFO] start crawling...
+2026-04-21 01:27:04,905 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:04,906 [INFO] thread feeder-001 exit
+2026-04-21 01:27:04,906 [INFO] starting 1 parser threads...
+2026-04-21 01:27:04,907 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:05,962 [INFO] parsing result page https://www.google.com/search?q=Mupirocin+%2F+Bactroban+ointment+2%25+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:09,919 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:09,920 [INFO] thread downloader-001 exit
+2026-04-21 01:27:10,910 [INFO] Crawling task done!
+2026-04-21 01:27:10,911 [WARNING]   ✗ No image downloaded for: Mupirocin / Bactroban ointment 2%
+2026-04-21 01:27:11,913 [INFO] [48/75] Downloading: Fluocinolone acetonide + Miconazole nitrate ointment (query: 'Fluocinolone acetonide + Miconazole nitrate ointment medicine tablet photo')
+2026-04-21 01:27:11,914 [INFO] start crawling...
+2026-04-21 01:27:11,915 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:11,915 [INFO] thread feeder-001 exit
+2026-04-21 01:27:11,915 [INFO] starting 1 parser threads...
+2026-04-21 01:27:11,916 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:13,749 [INFO] parsing result page https://www.google.com/search?q=Fluocinolone+acetonide+%2B+Miconazole+nitrate+ointment+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:16,923 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:16,923 [INFO] thread downloader-001 exit
+2026-04-21 01:27:17,919 [INFO] Crawling task done!
+2026-04-21 01:27:17,920 [WARNING]   ✗ No image downloaded for: Fluocinolone acetonide + Miconazole nitrate ointment
+2026-04-21 01:27:18,922 [INFO] [49/75] Downloading: Betamethasone valerate / Betnovate cream (query: 'Betamethasone valerate / Betnovate cream medicine tablet photo')
+2026-04-21 01:27:18,925 [INFO] start crawling...
+2026-04-21 01:27:18,925 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:18,926 [INFO] thread feeder-001 exit
+2026-04-21 01:27:18,926 [INFO] starting 1 parser threads...
+2026-04-21 01:27:18,926 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:19,891 [INFO] parsing result page https://www.google.com/search?q=Betamethasone+valerate+%2F+Betnovate+cream+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:23,930 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:23,930 [INFO] thread downloader-001 exit
+2026-04-21 01:27:24,929 [INFO] Crawling task done!
+2026-04-21 01:27:24,930 [WARNING]   ✗ No image downloaded for: Betamethasone valerate / Betnovate cream
+2026-04-21 01:27:25,931 [INFO] [50/75] Downloading: Famotidine / Pepcid tablets (query: 'Famotidine / Pepcid tablets medicine tablet photo')
+2026-04-21 01:27:25,934 [INFO] start crawling...
+2026-04-21 01:27:25,934 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:25,934 [INFO] thread feeder-001 exit
+2026-04-21 01:27:25,934 [INFO] starting 1 parser threads...
+2026-04-21 01:27:25,935 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:27,160 [INFO] parsing result page https://www.google.com/search?q=Famotidine+%2F+Pepcid+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:30,937 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:30,937 [INFO] thread downloader-001 exit
+2026-04-21 01:27:30,939 [INFO] Crawling task done!
+2026-04-21 01:27:30,940 [WARNING]   ✗ No image downloaded for: Famotidine / Pepcid tablets
+2026-04-21 01:27:31,941 [INFO] [51/75] Downloading: Ranitidine tablets (historical reference) (query: 'Ranitidine tablets (historical reference) medicine tablet photo')
+2026-04-21 01:27:31,943 [INFO] start crawling...
+2026-04-21 01:27:31,943 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:31,943 [INFO] thread feeder-001 exit
+2026-04-21 01:27:31,944 [INFO] starting 1 parser threads...
+2026-04-21 01:27:31,944 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:33,509 [INFO] parsing result page https://www.google.com/search?q=Ranitidine+tablets+%28historical+reference%29+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:36,959 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:36,960 [INFO] thread downloader-001 exit
+2026-04-21 01:27:37,947 [INFO] Crawling task done!
+2026-04-21 01:27:37,948 [WARNING]   ✗ No image downloaded for: Ranitidine tablets (historical reference)
+2026-04-21 01:27:38,949 [INFO] [52/75] Downloading: Cimetidine tablets (query: 'Cimetidine tablets medicine tablet photo')
+2026-04-21 01:27:38,952 [INFO] start crawling...
+2026-04-21 01:27:38,952 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:38,953 [INFO] thread feeder-001 exit
+2026-04-21 01:27:38,953 [INFO] starting 1 parser threads...
+2026-04-21 01:27:38,954 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:39,857 [INFO] parsing result page https://www.google.com/search?q=Cimetidine+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:43,959 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:43,959 [INFO] thread downloader-001 exit
+2026-04-21 01:27:44,957 [INFO] Crawling task done!
+2026-04-21 01:27:44,958 [WARNING]   ✗ No image downloaded for: Cimetidine tablets
+2026-04-21 01:27:45,959 [INFO] [53/75] Downloading: Omeprazole gastro-resistant capsules (query: 'Omeprazole gastro-resistant capsules medicine tablet photo')
+2026-04-21 01:27:45,961 [INFO] start crawling...
+2026-04-21 01:27:45,961 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:45,962 [INFO] thread feeder-001 exit
+2026-04-21 01:27:45,962 [INFO] starting 1 parser threads...
+2026-04-21 01:27:45,962 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:47,026 [INFO] parsing result page https://www.google.com/search?q=Omeprazole+gastro-resistant+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:50,975 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:50,975 [INFO] thread downloader-001 exit
+2026-04-21 01:27:51,966 [INFO] Crawling task done!
+2026-04-21 01:27:51,966 [WARNING]   ✗ No image downloaded for: Omeprazole gastro-resistant capsules
+2026-04-21 01:27:52,968 [INFO] [54/75] Downloading: Lansoprazole gastro-resistant capsules (query: 'Lansoprazole gastro-resistant capsules medicine tablet photo')
+2026-04-21 01:27:52,969 [INFO] start crawling...
+2026-04-21 01:27:52,970 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:52,970 [INFO] thread feeder-001 exit
+2026-04-21 01:27:52,970 [INFO] starting 1 parser threads...
+2026-04-21 01:27:52,971 [INFO] starting 1 downloader threads...
+2026-04-21 01:27:53,991 [INFO] parsing result page https://www.google.com/search?q=Lansoprazole+gastro-resistant+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:27:57,975 [INFO] no more download task for thread downloader-001
+2026-04-21 01:27:57,976 [INFO] thread downloader-001 exit
+2026-04-21 01:27:58,975 [INFO] Crawling task done!
+2026-04-21 01:27:58,976 [WARNING]   ✗ No image downloaded for: Lansoprazole gastro-resistant capsules
+2026-04-21 01:27:59,977 [INFO] [55/75] Downloading: Pantoprazole gastro-resistant tablets (query: 'Pantoprazole gastro-resistant tablets medicine tablet photo')
+2026-04-21 01:27:59,980 [INFO] start crawling...
+2026-04-21 01:27:59,980 [INFO] starting 1 feeder threads...
+2026-04-21 01:27:59,981 [INFO] thread feeder-001 exit
+2026-04-21 01:27:59,981 [INFO] starting 1 parser threads...
+2026-04-21 01:27:59,981 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:01,260 [INFO] parsing result page https://www.google.com/search?q=Pantoprazole+gastro-resistant+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:04,983 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:04,983 [INFO] thread downloader-001 exit
+2026-04-21 01:28:04,984 [INFO] Crawling task done!
+2026-04-21 01:28:04,985 [WARNING]   ✗ No image downloaded for: Pantoprazole gastro-resistant tablets
+2026-04-21 01:28:05,987 [INFO] [56/75] Downloading: Gastro-resistant Diclofenac / Voltarol tablets (query: 'Gastro-resistant Diclofenac / Voltarol tablets medicine tablet photo')
+2026-04-21 01:28:05,989 [INFO] start crawling...
+2026-04-21 01:28:05,989 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:05,989 [INFO] thread feeder-001 exit
+2026-04-21 01:28:05,990 [INFO] starting 1 parser threads...
+2026-04-21 01:28:05,990 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:06,995 [INFO] parsing result page https://www.google.com/search?q=Gastro-resistant+Diclofenac+%2F+Voltarol+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:10,995 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:10,995 [INFO] thread downloader-001 exit
+2026-04-21 01:28:11,994 [INFO] Crawling task done!
+2026-04-21 01:28:11,994 [WARNING]   ✗ No image downloaded for: Gastro-resistant Diclofenac / Voltarol tablets
+2026-04-21 01:28:12,996 [INFO] [57/75] Downloading: Gastro-resistant Aspirin tablets (GI indication) (query: 'Gastro-resistant Aspirin tablets (GI indication) medicine tablet photo')
+2026-04-21 01:28:12,997 [INFO] start crawling...
+2026-04-21 01:28:12,998 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:12,998 [INFO] thread feeder-001 exit
+2026-04-21 01:28:12,998 [INFO] starting 1 parser threads...
+2026-04-21 01:28:12,999 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:14,265 [INFO] parsing result page https://www.google.com/search?q=Gastro-resistant+Aspirin+tablets+%28GI+indication%29+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:18,004 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:18,004 [INFO] thread downloader-001 exit
+2026-04-21 01:28:19,002 [INFO] Crawling task done!
+2026-04-21 01:28:19,003 [WARNING]   ✗ No image downloaded for: Gastro-resistant Aspirin tablets (GI indication)
+2026-04-21 01:28:20,004 [INFO] [58/75] Downloading: Ibuprofen tablets (query: 'Ibuprofen tablets medicine tablet photo')
+2026-04-21 01:28:20,006 [INFO] start crawling...
+2026-04-21 01:28:20,007 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:20,007 [INFO] thread feeder-001 exit
+2026-04-21 01:28:20,007 [INFO] starting 1 parser threads...
+2026-04-21 01:28:20,008 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:21,058 [INFO] parsing result page https://www.google.com/search?q=Ibuprofen+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:25,010 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:25,010 [INFO] thread downloader-001 exit
+2026-04-21 01:28:26,010 [INFO] Crawling task done!
+2026-04-21 01:28:26,011 [WARNING]   ✗ No image downloaded for: Ibuprofen tablets
+2026-04-21 01:28:27,012 [INFO] [59/75] Downloading: Paracetamol tablets (query: 'Paracetamol tablets medicine tablet photo')
+2026-04-21 01:28:27,014 [INFO] start crawling...
+2026-04-21 01:28:27,014 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:27,015 [INFO] thread feeder-001 exit
+2026-04-21 01:28:27,015 [INFO] starting 1 parser threads...
+2026-04-21 01:28:27,016 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:28,514 [INFO] parsing result page https://www.google.com/search?q=Paracetamol+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:32,020 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:32,021 [INFO] thread downloader-001 exit
+2026-04-21 01:28:33,018 [INFO] Crawling task done!
+2026-04-21 01:28:33,019 [WARNING]   ✗ No image downloaded for: Paracetamol tablets
+2026-04-21 01:28:34,021 [INFO] [60/75] Downloading: Diclofenac gastro-resistant / Voltarol tablets (CNS – pain) (query: 'Diclofenac gastro-resistant / Voltarol tablets (CNS – pain) medicine tablet photo')
+2026-04-21 01:28:34,022 [INFO] start crawling...
+2026-04-21 01:28:34,023 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:34,023 [INFO] thread feeder-001 exit
+2026-04-21 01:28:34,023 [INFO] starting 1 parser threads...
+2026-04-21 01:28:34,024 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:35,053 [INFO] parsing result page https://www.google.com/search?q=Diclofenac+gastro-resistant+%2F+Voltarol+tablets+%28CNS+%E2%80%93+pain%29+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:39,034 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:39,034 [INFO] thread downloader-001 exit
+2026-04-21 01:28:40,026 [INFO] Crawling task done!
+2026-04-21 01:28:40,027 [WARNING]   ✗ No image downloaded for: Diclofenac gastro-resistant / Voltarol tablets (CNS – pain)
+2026-04-21 01:28:41,028 [INFO] [61/75] Downloading: Tramadol hydrochloride capsules (query: 'Tramadol hydrochloride capsules medicine tablet photo')
+2026-04-21 01:28:41,030 [INFO] start crawling...
+2026-04-21 01:28:41,030 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:41,031 [INFO] thread feeder-001 exit
+2026-04-21 01:28:41,031 [INFO] starting 1 parser threads...
+2026-04-21 01:28:41,032 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:42,097 [INFO] parsing result page https://www.google.com/search?q=Tramadol+hydrochloride+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:46,036 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:46,036 [INFO] thread downloader-001 exit
+2026-04-21 01:28:47,034 [INFO] Crawling task done!
+2026-04-21 01:28:47,035 [WARNING]   ✗ No image downloaded for: Tramadol hydrochloride capsules
+2026-04-21 01:28:48,036 [INFO] [62/75] Downloading: Duloxetine / Cymbalta capsules (query: 'Duloxetine / Cymbalta capsules medicine tablet photo')
+2026-04-21 01:28:48,038 [INFO] start crawling...
+2026-04-21 01:28:48,038 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:48,039 [INFO] thread feeder-001 exit
+2026-04-21 01:28:48,039 [INFO] starting 1 parser threads...
+2026-04-21 01:28:48,039 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:49,082 [INFO] parsing result page https://www.google.com/search?q=Duloxetine+%2F+Cymbalta+capsules+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:53,041 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:53,042 [INFO] thread downloader-001 exit
+2026-04-21 01:28:53,043 [INFO] Crawling task done!
+2026-04-21 01:28:53,043 [WARNING]   ✗ No image downloaded for: Duloxetine / Cymbalta capsules
+2026-04-21 01:28:54,044 [INFO] [63/75] Downloading: Citalopram / Cipramil tablets (query: 'Citalopram / Cipramil tablets medicine tablet photo')
+2026-04-21 01:28:54,046 [INFO] start crawling...
+2026-04-21 01:28:54,046 [INFO] starting 1 feeder threads...
+2026-04-21 01:28:54,047 [INFO] thread feeder-001 exit
+2026-04-21 01:28:54,047 [INFO] starting 1 parser threads...
+2026-04-21 01:28:54,048 [INFO] starting 1 downloader threads...
+2026-04-21 01:28:55,328 [INFO] parsing result page https://www.google.com/search?q=Citalopram+%2F+Cipramil+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:28:59,055 [INFO] no more download task for thread downloader-001
+2026-04-21 01:28:59,056 [INFO] thread downloader-001 exit
+2026-04-21 01:29:00,051 [INFO] Crawling task done!
+2026-04-21 01:29:00,051 [WARNING]   ✗ No image downloaded for: Citalopram / Cipramil tablets
+2026-04-21 01:29:01,053 [INFO] [64/75] Downloading: Sertraline / Lustral tablets (query: 'Sertraline / Lustral tablets medicine tablet photo')
+2026-04-21 01:29:01,055 [INFO] start crawling...
+2026-04-21 01:29:01,055 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:01,055 [INFO] thread feeder-001 exit
+2026-04-21 01:29:01,055 [INFO] starting 1 parser threads...
+2026-04-21 01:29:01,056 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:01,995 [INFO] parsing result page https://www.google.com/search?q=Sertraline+%2F+Lustral+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:06,062 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:06,062 [INFO] thread downloader-001 exit
+2026-04-21 01:29:07,059 [INFO] Crawling task done!
+2026-04-21 01:29:07,059 [WARNING]   ✗ No image downloaded for: Sertraline / Lustral tablets
+2026-04-21 01:29:08,061 [INFO] [65/75] Downloading: Quetiapine / Seroquel tablets (query: 'Quetiapine / Seroquel tablets medicine tablet photo')
+2026-04-21 01:29:08,063 [INFO] start crawling...
+2026-04-21 01:29:08,063 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:08,064 [INFO] thread feeder-001 exit
+2026-04-21 01:29:08,064 [INFO] starting 1 parser threads...
+2026-04-21 01:29:08,064 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:09,508 [INFO] parsing result page https://www.google.com/search?q=Quetiapine+%2F+Seroquel+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:13,077 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:13,078 [INFO] thread downloader-001 exit
+2026-04-21 01:29:14,069 [INFO] Crawling task done!
+2026-04-21 01:29:14,069 [WARNING]   ✗ No image downloaded for: Quetiapine / Seroquel tablets
+2026-04-21 01:29:15,070 [INFO] [66/75] Downloading: Haloperidol / Haldol tablets (query: 'Haloperidol / Haldol tablets medicine tablet photo')
+2026-04-21 01:29:15,072 [INFO] start crawling...
+2026-04-21 01:29:15,072 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:15,073 [INFO] thread feeder-001 exit
+2026-04-21 01:29:15,073 [INFO] starting 1 parser threads...
+2026-04-21 01:29:15,074 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:16,322 [INFO] parsing result page https://www.google.com/search?q=Haloperidol+%2F+Haldol+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:20,086 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:20,086 [INFO] thread downloader-001 exit
+2026-04-21 01:29:21,079 [INFO] Crawling task done!
+2026-04-21 01:29:21,080 [WARNING]   ✗ No image downloaded for: Haloperidol / Haldol tablets
+2026-04-21 01:29:22,081 [INFO] [67/75] Downloading: Risperidone / Risperdal tablets (query: 'Risperidone / Risperdal tablets medicine tablet photo')
+2026-04-21 01:29:22,083 [INFO] start crawling...
+2026-04-21 01:29:22,083 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:22,084 [INFO] thread feeder-001 exit
+2026-04-21 01:29:22,084 [INFO] starting 1 parser threads...
+2026-04-21 01:29:22,085 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:23,387 [INFO] parsing result page https://www.google.com/search?q=Risperidone+%2F+Risperdal+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:27,092 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:27,093 [INFO] thread downloader-001 exit
+2026-04-21 01:29:28,088 [INFO] Crawling task done!
+2026-04-21 01:29:28,089 [WARNING]   ✗ No image downloaded for: Risperidone / Risperdal tablets
+2026-04-21 01:29:29,091 [INFO] [68/75] Downloading: Tizanidine / Zanaflex tablets (query: 'Tizanidine / Zanaflex tablets medicine tablet photo')
+2026-04-21 01:29:29,093 [INFO] start crawling...
+2026-04-21 01:29:29,093 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:29,093 [INFO] thread feeder-001 exit
+2026-04-21 01:29:29,093 [INFO] starting 1 parser threads...
+2026-04-21 01:29:29,094 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:30,049 [INFO] parsing result page https://www.google.com/search?q=Tizanidine+%2F+Zanaflex+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:34,096 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:34,097 [INFO] thread downloader-001 exit
+2026-04-21 01:29:35,097 [INFO] Crawling task done!
+2026-04-21 01:29:35,098 [WARNING]   ✗ No image downloaded for: Tizanidine / Zanaflex tablets
+2026-04-21 01:29:36,099 [INFO] [69/75] Downloading: Baclofen tablets (query: 'Baclofen tablets medicine tablet photo')
+2026-04-21 01:29:36,101 [INFO] start crawling...
+2026-04-21 01:29:36,101 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:36,102 [INFO] thread feeder-001 exit
+2026-04-21 01:29:36,102 [INFO] starting 1 parser threads...
+2026-04-21 01:29:36,102 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:37,112 [INFO] parsing result page https://www.google.com/search?q=Baclofen+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:41,103 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:41,104 [INFO] thread downloader-001 exit
+2026-04-21 01:29:41,104 [INFO] Crawling task done!
+2026-04-21 01:29:41,105 [WARNING]   ✗ No image downloaded for: Baclofen tablets
+2026-04-21 01:29:42,106 [INFO] [70/75] Downloading: Diazepam tablets (query: 'Diazepam tablets medicine tablet photo')
+2026-04-21 01:29:42,108 [INFO] start crawling...
+2026-04-21 01:29:42,108 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:42,108 [INFO] thread feeder-001 exit
+2026-04-21 01:29:42,109 [INFO] starting 1 parser threads...
+2026-04-21 01:29:42,109 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:43,049 [INFO] parsing result page https://www.google.com/search?q=Diazepam+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:47,125 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:47,125 [INFO] thread downloader-001 exit
+2026-04-21 01:29:48,112 [INFO] Crawling task done!
+2026-04-21 01:29:48,113 [WARNING]   ✗ No image downloaded for: Diazepam tablets
+2026-04-21 01:29:49,114 [INFO] [71/75] Downloading: Cinnarizine / Stugeron tablets (query: 'Cinnarizine / Stugeron tablets medicine tablet photo')
+2026-04-21 01:29:49,116 [INFO] start crawling...
+2026-04-21 01:29:49,116 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:49,116 [INFO] thread feeder-001 exit
+2026-04-21 01:29:49,116 [INFO] starting 1 parser threads...
+2026-04-21 01:29:49,117 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:49,806 [INFO] parsing result page https://www.google.com/search?q=Cinnarizine+%2F+Stugeron+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:29:54,127 [INFO] no more download task for thread downloader-001
+2026-04-21 01:29:54,128 [INFO] thread downloader-001 exit
+2026-04-21 01:29:55,119 [INFO] Crawling task done!
+2026-04-21 01:29:55,119 [WARNING]   ✗ No image downloaded for: Cinnarizine / Stugeron tablets
+2026-04-21 01:29:56,120 [INFO] [72/75] Downloading: Betahistine / Serc tablets (query: 'Betahistine / Serc tablets medicine tablet photo')
+2026-04-21 01:29:56,122 [INFO] start crawling...
+2026-04-21 01:29:56,122 [INFO] starting 1 feeder threads...
+2026-04-21 01:29:56,123 [INFO] thread feeder-001 exit
+2026-04-21 01:29:56,123 [INFO] starting 1 parser threads...
+2026-04-21 01:29:56,123 [INFO] starting 1 downloader threads...
+2026-04-21 01:29:57,282 [INFO] parsing result page https://www.google.com/search?q=Betahistine+%2F+Serc+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:30:01,134 [INFO] no more download task for thread downloader-001
+2026-04-21 01:30:01,134 [INFO] thread downloader-001 exit
+2026-04-21 01:30:02,126 [INFO] Crawling task done!
+2026-04-21 01:30:02,127 [WARNING]   ✗ No image downloaded for: Betahistine / Serc tablets
+2026-04-21 01:30:03,128 [INFO] [73/75] Downloading: Prochlorperazine / Stemetil tablets (query: 'Prochlorperazine / Stemetil tablets medicine tablet photo')
+2026-04-21 01:30:03,130 [INFO] start crawling...
+2026-04-21 01:30:03,130 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:03,130 [INFO] thread feeder-001 exit
+2026-04-21 01:30:03,130 [INFO] starting 1 parser threads...
+2026-04-21 01:30:03,131 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:03,837 [INFO] parsing result page https://www.google.com/search?q=Prochlorperazine+%2F+Stemetil+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:30:08,139 [INFO] no more download task for thread downloader-001
+2026-04-21 01:30:08,139 [INFO] thread downloader-001 exit
+2026-04-21 01:30:09,134 [INFO] Crawling task done!
+2026-04-21 01:30:09,135 [WARNING]   ✗ No image downloaded for: Prochlorperazine / Stemetil tablets
+2026-04-21 01:30:10,136 [INFO] [74/75] Downloading: Norethindrone acetate / Aygestin tablets (query: 'Norethindrone acetate / Aygestin tablets medicine tablet photo')
+2026-04-21 01:30:10,138 [INFO] start crawling...
+2026-04-21 01:30:10,138 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:10,138 [INFO] thread feeder-001 exit
+2026-04-21 01:30:10,138 [INFO] starting 1 parser threads...
+2026-04-21 01:30:10,139 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:10,901 [INFO] parsing result page https://www.google.com/search?q=Norethindrone+acetate+%2F+Aygestin+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:30:15,147 [INFO] no more download task for thread downloader-001
+2026-04-21 01:30:15,147 [INFO] thread downloader-001 exit
+2026-04-21 01:30:16,142 [INFO] Crawling task done!
+2026-04-21 01:30:16,143 [WARNING]   ✗ No image downloaded for: Norethindrone acetate / Aygestin tablets
+2026-04-21 01:30:17,144 [INFO] [75/75] Downloading: Letrozole / Femara tablets (query: 'Letrozole / Femara tablets medicine tablet photo')
+2026-04-21 01:30:17,146 [INFO] start crawling...
+2026-04-21 01:30:17,146 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:17,146 [INFO] thread feeder-001 exit
+2026-04-21 01:30:17,146 [INFO] starting 1 parser threads...
+2026-04-21 01:30:17,147 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:18,172 [INFO] parsing result page https://www.google.com/search?q=Letrozole+%2F+Femara+tablets+medicine+tablet+photo&ijn=0&start=0&tbs=&tbm=isch
+2026-04-21 01:30:22,156 [INFO] no more download task for thread downloader-001
+2026-04-21 01:30:22,156 [INFO] thread downloader-001 exit
+2026-04-21 01:30:23,149 [INFO] Crawling task done!
+2026-04-21 01:30:23,150 [WARNING]   ✗ No image downloaded for: Letrozole / Femara tablets
+2026-04-21 01:30:24,152 [INFO] 
+📥 Step 2b: Trying Bing for 75 missing medicines...
+2026-04-21 01:30:24,152 [INFO] [Bing Fallback] Downloading images for 75 unique medicines
+2026-04-21 01:30:24,153 [INFO] [1/75] [Bing] Downloading: Apixaban / Thromban pack
+2026-04-21 01:30:24,153 [INFO] start crawling...
+2026-04-21 01:30:24,153 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:24,154 [INFO] thread feeder-001 exit
+2026-04-21 01:30:24,154 [INFO] starting 1 parser threads...
+2026-04-21 01:30:24,154 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:25,849 [INFO] parsing result page https://www.bing.com/images/async?q=Apixaban / Thromban pack medicine&first=0
+2026-04-21 01:30:27,327 [INFO] image #1	https://siglerdrugcards.com/pressy/wp-content/uploads/2019/02/Apixaban-hematological-agent-misc-cardiovascular-agents.jpg
+2026-04-21 01:30:28,257 [INFO] downloaded images reach max num, thread downloader-001 is ready to exit
+2026-04-21 01:30:28,257 [INFO] thread downloader-001 exit
+2026-04-21 01:30:29,156 [INFO] Crawling task done!
+2026-04-21 01:30:29,157 [INFO]   ✓ Downloaded: 000001.jpg
+2026-04-21 01:30:29,897 [INFO] downloaded image reached max num, thread parser-001 is ready to exit
+2026-04-21 01:30:29,897 [INFO] thread parser-001 exit
+2026-04-21 01:30:30,158 [INFO] [2/75] [Bing] Downloading: Warfarin tablets
+2026-04-21 01:30:30,161 [INFO] start crawling...
+2026-04-21 01:30:30,161 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:30,162 [INFO] thread feeder-001 exit
+2026-04-21 01:30:30,162 [INFO] starting 1 parser threads...
+2026-04-21 01:30:30,163 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:31,692 [INFO] parsing result page https://www.bing.com/images/async?q=Warfarin tablets medicine&first=0
+2026-04-21 01:30:34,035 [INFO] image #1	https://medicalenglish.com.au/wp-content/uploads/2024/01/Warfarintablets5-3-1small-300x281-1.jpg
+2026-04-21 01:30:35,296 [INFO] downloaded images reach max num, thread downloader-001 is ready to exit
+2026-04-21 01:30:35,296 [INFO] thread downloader-001 exit
+2026-04-21 01:30:36,044 [INFO] downloaded image reached max num, thread parser-001 is ready to exit
+2026-04-21 01:30:36,044 [INFO] thread parser-001 exit
+2026-04-21 01:30:36,164 [INFO] Crawling task done!
+2026-04-21 01:30:36,165 [INFO]   ✓ Downloaded: 000001.jpg
+2026-04-21 01:30:37,166 [INFO] [3/75] [Bing] Downloading: Rivaroxaban / Xarelto tablets
+2026-04-21 01:30:37,169 [INFO] start crawling...
+2026-04-21 01:30:37,170 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:37,170 [INFO] thread feeder-001 exit
+2026-04-21 01:30:37,170 [INFO] starting 1 parser threads...
+2026-04-21 01:30:37,171 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:38,174 [INFO] parsing result page https://www.bing.com/images/async?q=Rivaroxaban / Xarelto tablets medicine&first=0
+2026-04-21 01:30:39,035 [INFO] image #1	https://5.imimg.com/data5/ANDROID/Default/2022/10/UX/HP/LD/140860830/product-jpeg-1000x1000.jpg
+2026-04-21 01:30:39,505 [INFO] downloaded images reach max num, thread downloader-001 is ready to exit
+2026-04-21 01:30:39,505 [INFO] thread downloader-001 exit
+2026-04-21 01:30:40,172 [INFO] Crawling task done!
+2026-04-21 01:30:40,172 [INFO]   ✓ Downloaded: 000001.jpg
+2026-04-21 01:30:41,037 [INFO] downloaded image reached max num, thread parser-001 is ready to exit
+2026-04-21 01:30:41,038 [INFO] thread parser-001 exit
+2026-04-21 01:30:41,174 [INFO] [4/75] [Bing] Downloading: Gastro-resistant Aspirin tablets
+2026-04-21 01:30:41,176 [INFO] start crawling...
+2026-04-21 01:30:41,177 [INFO] starting 1 feeder threads...
+2026-04-21 01:30:41,177 [INFO] thread feeder-001 exit
+2026-04-21 01:30:41,177 [INFO] starting 1 parser threads...
+2026-04-21 01:30:41,177 [INFO] starting 1 downloader threads...
+2026-04-21 01:30:42,318 [INFO] parsing result page https://www.bing.com/images/async?q=Gastro-resistant Aspirin tablets medicine&first=0
+2026-04-21 01:32:19,729 [INFO] ============================================================
+2026-04-21 01:32:19,729 [INFO]   Medicine Photo Scraper & Document Inserter
+2026-04-21 01:32:19,730 [INFO] ============================================================
+2026-04-21 01:32:19,730 [INFO] 
+Step 1: Extracting medicine names from document...
+2026-04-21 01:32:19,808 [INFO]    Found 75 photo placeholders
+2026-04-21 01:32:19,808 [INFO] 
+   Unique medicines (75):
+2026-04-21 01:32:19,808 [INFO]      1. Alendronate sodium / Fosamax tablets
+2026-04-21 01:32:19,809 [INFO]      2. Amiodarone / Cordarone tablets
+2026-04-21 01:32:19,809 [INFO]      3. Amlodipine / Istin tablets
+2026-04-21 01:32:19,809 [INFO]      4. Apixaban / Thromban pack
+2026-04-21 01:32:19,809 [INFO]      5. Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 01:32:19,809 [INFO]      6. Atorvastatin / Lipitor tablets
+2026-04-21 01:32:19,809 [INFO]      7. Azithromycin / Zithromax capsules
+2026-04-21 01:32:19,809 [INFO]      8. Baclofen tablets
+2026-04-21 01:32:19,810 [INFO]      9. Betahistine / Serc tablets
+2026-04-21 01:32:19,810 [INFO]     10. Betamethasone valerate / Betnovate cream
+2026-04-21 01:32:19,810 [INFO]     11. Bisoprolol fumarate / Cardicor tablets
+2026-04-21 01:32:19,810 [INFO]     12. Cefalexin / Keflex capsules
+2026-04-21 01:32:19,810 [INFO]     13. Cefuroxime Axetil / Zinnat tablets
+2026-04-21 01:32:19,810 [INFO]     14. Cetirizine / Zirtek tablets
+2026-04-21 01:32:19,810 [INFO]     15. Chlorpheniramine / Piriton tablets
+2026-04-21 01:32:19,810 [INFO]     16. Cilnidipine tablets
+2026-04-21 01:32:19,811 [INFO]     17. Cimetidine tablets
+2026-04-21 01:32:19,811 [INFO]     18. Cinnarizine / Stugeron tablets
+2026-04-21 01:32:19,811 [INFO]     19. Ciprofloxacin / Ciproxin tablets
+2026-04-21 01:32:19,811 [INFO]     20. Citalopram / Cipramil tablets
+2026-04-21 01:32:19,811 [INFO]     21. Clopidogrel / Plavix tablets
+2026-04-21 01:32:19,811 [INFO]     22. Deplus (Cholecalciferol / Vitamin D3) tablets
+2026-04-21 01:32:19,811 [INFO]     23. Diazepam tablets
+2026-04-21 01:32:19,811 [INFO]     24. Diclofenac gastro-resistant / Voltarol tablets (CNS – pain)
+2026-04-21 01:32:19,811 [INFO]     25. Duloxetine / Cymbalta capsules
+2026-04-21 01:32:19,811 [INFO]     26. Empagliflozin / Jardiance tablets
+2026-04-21 01:32:19,812 [INFO]     27. Enalapril / Innovace tablets
+2026-04-21 01:32:19,812 [INFO]     28. Ezetimibe / Ezetrol tablets
+2026-04-21 01:32:19,812 [INFO]     29. Famotidine / Pepcid tablets
+2026-04-21 01:32:19,812 [INFO]     30. Flecainide / Tambocor tablets
+2026-04-21 01:32:19,812 [INFO]     31. Flucloxacillin / Floxapen capsules
+2026-04-21 01:32:19,812 [INFO]     32. Fluocinolone acetonide + Miconazole nitrate ointment
+2026-04-21 01:32:19,812 [INFO]     33. Gastro-resistant Aspirin tablets
+2026-04-21 01:32:19,812 [INFO]     34. Gastro-resistant Aspirin tablets (GI indication)
+2026-04-21 01:32:19,812 [INFO]     35. Gastro-resistant Diclofenac / Voltarol tablets
+2026-04-21 01:32:19,812 [INFO]     36. Gliclazide / Diamicron tablets
+2026-04-21 01:32:19,812 [INFO]     37. Glyceryl trinitrate (GTN) sublingual tablets/spray
+2026-04-21 01:32:19,813 [INFO]     38. Haloperidol / Haldol tablets
+2026-04-21 01:32:19,813 [INFO]     39. Ibuprofen tablets
+2026-04-21 01:32:19,813 [INFO]     40. Isosorbide mononitrate MR / Imdur tablets
+2026-04-21 01:32:19,813 [INFO]     41. Itraconazole / Sporanox capsules
+2026-04-21 01:32:19,813 [INFO]     42. Ivabradine / Procoralan tablets
+2026-04-21 01:32:19,813 [INFO]     43. Lansoprazole gastro-resistant capsules
+2026-04-21 01:32:19,813 [INFO]     44. Letrozole / Femara tablets
+2026-04-21 01:32:19,813 [INFO]     45. Levothyroxine / Euthyrox tablets
+2026-04-21 01:32:19,814 [INFO]     46. Lidocaine injection
+2026-04-21 01:32:19,814 [INFO]     47. Lisinopril / Zestril tablets
+2026-04-21 01:32:19,814 [INFO]     48. Loratadine / Clarityn tablets
+2026-04-21 01:32:19,814 [INFO]     49. Losartan potassium / Cozaar tablets
+2026-04-21 01:32:19,814 [INFO]     50. Meropenem / Meronem injection vials
+2026-04-21 01:32:19,814 [INFO]     51. Metformin / Glucophage tablets
+2026-04-21 01:32:19,814 [INFO]     52. Metoprolol Tartrate / Betaloc tablets
+2026-04-21 01:32:19,815 [INFO]     53. Mupirocin / Bactroban ointment 2%
+2026-04-21 01:32:19,815 [INFO]     54. Nebivolol / Nebilet tablets
+2026-04-21 01:32:19,815 [INFO]     55. Nifedipine modified-release / Adalat LA tablets
+2026-04-21 01:32:19,815 [INFO]     56. Norethindrone acetate / Aygestin tablets
+2026-04-21 01:32:19,815 [INFO]     57. Omeprazole gastro-resistant capsules
+2026-04-21 01:32:19,815 [INFO]     58. Pantoprazole gastro-resistant tablets
+2026-04-21 01:32:19,815 [INFO]     59. Paracetamol tablets
+2026-04-21 01:32:19,815 [INFO]     60. Prochlorperazine / Stemetil tablets
+2026-04-21 01:32:19,815 [INFO]     61. Quetiapine / Seroquel tablets
+2026-04-21 01:32:19,816 [INFO]     62. Ramipril / Tritace capsules
+2026-04-21 01:32:19,816 [INFO]     63. Ranitidine tablets (historical reference)
+2026-04-21 01:32:19,816 [INFO]     64. Ranolazine / Ranexa extended-release tablets
+2026-04-21 01:32:19,816 [INFO]     65. Risperidone / Risperdal tablets
+2026-04-21 01:32:19,816 [INFO]     66. Rivaroxaban / Xarelto tablets
+2026-04-21 01:32:19,816 [INFO]     67. Rosuvastatin / Crestor tablets
+2026-04-21 01:32:19,816 [INFO]     68. Sertraline / Lustral tablets
+2026-04-21 01:32:19,816 [INFO]     69. Sildenafil citrate / Viagra tablets
+2026-04-21 01:32:19,816 [INFO]     70. Sitagliptin phosphate / Januvia tablets
+2026-04-21 01:32:19,816 [INFO]     71. Tizanidine / Zanaflex tablets
+2026-04-21 01:32:19,817 [INFO]     72. Tramadol hydrochloride capsules
+2026-04-21 01:32:19,817 [INFO]     73. Vitamin B1+B6+B12 / Neurobion tablets
+2026-04-21 01:32:19,817 [INFO]     74. Vitamin E capsules
+2026-04-21 01:32:19,817 [INFO]     75. Warfarin tablets
+2026-04-21 01:32:19,817 [INFO] 
+Step 2: Downloading medicine photos...
+2026-04-21 01:32:19,817 [INFO] Found 75 placeholders, 75 unique medicines
+2026-04-21 01:32:19,818 [INFO] [1/75] Already exists: Apixaban / Thromban pack
+2026-04-21 01:32:19,818 [INFO] [2/75] Already exists: Warfarin tablets
+2026-04-21 01:32:19,818 [INFO] [3/75] Already exists: Rivaroxaban / Xarelto tablets
+2026-04-21 01:32:19,819 [INFO] [4/75] Searching: Gastro-resistant Aspirin tablets
+2026-04-21 01:32:23,419 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:24,921 [INFO] [5/75] Searching: Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 01:32:28,108 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:29,609 [INFO] [6/75] Searching: Clopidogrel / Plavix tablets
+2026-04-21 01:32:32,986 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:34,488 [INFO] [7/75] Searching: Ramipril / Tritace capsules
+2026-04-21 01:32:37,762 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:39,264 [INFO] [8/75] Searching: Enalapril / Innovace tablets
+2026-04-21 01:32:43,561 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:45,062 [INFO] [9/75] Searching: Lisinopril / Zestril tablets
+2026-04-21 01:32:48,166 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:49,667 [INFO] [10/75] Searching: Losartan potassium / Cozaar tablets
+2026-04-21 01:32:51,271 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:32:56,091 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:32:57,592 [INFO] [11/75] Searching: Bisoprolol fumarate / Cardicor tablets
+2026-04-21 01:32:59,522 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:01,023 [INFO] [12/75] Searching: Metoprolol Tartrate / Betaloc tablets
+2026-04-21 01:33:02,249 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:33:06,171 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:07,672 [INFO] [13/75] Searching: Nebivolol / Nebilet tablets
+2026-04-21 01:33:09,842 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:11,343 [INFO] [14/75] Searching: Amlodipine / Istin tablets
+2026-04-21 01:33:14,084 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:15,586 [INFO] [15/75] Searching: Cilnidipine tablets
+2026-04-21 01:33:18,919 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:20,420 [INFO] [16/75] Searching: Nifedipine modified-release / Adalat LA tablets
+2026-04-21 01:33:22,804 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:24,305 [INFO] [17/75] Searching: Ezetimibe / Ezetrol tablets
+2026-04-21 01:33:26,957 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:28,459 [INFO] [18/75] Searching: Rosuvastatin / Crestor tablets
+2026-04-21 01:33:40,413 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:41,914 [INFO] [19/75] Searching: Atorvastatin / Lipitor tablets
+2026-04-21 01:33:55,656 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:33:57,157 [INFO] [20/75] Searching: Sitagliptin phosphate / Januvia tablets
+2026-04-21 01:34:08,116 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:34:09,617 [INFO] [21/75] Searching: Gliclazide / Diamicron tablets
+2026-04-21 01:34:59,970 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:01,471 [INFO] [22/75] Searching: Empagliflozin / Jardiance tablets
+2026-04-21 01:35:04,809 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:06,311 [INFO] [23/75] Searching: Metformin / Glucophage tablets
+2026-04-21 01:35:08,833 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:10,334 [INFO] [24/75] Searching: Sildenafil citrate / Viagra tablets
+2026-04-21 01:35:12,394 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:13,895 [INFO] [25/75] Searching: Glyceryl trinitrate (GTN) sublingual tablets/spray
+2026-04-21 01:35:15,805 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:17,306 [INFO] [26/75] Searching: Isosorbide mononitrate MR / Imdur tablets
+2026-04-21 01:35:20,233 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:21,734 [INFO] [27/75] Searching: Ranolazine / Ranexa extended-release tablets
+2026-04-21 01:35:25,578 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:27,080 [INFO] [28/75] Searching: Amiodarone / Cordarone tablets
+2026-04-21 01:35:28,619 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:35:32,884 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:34,385 [INFO] [29/75] Searching: Flecainide / Tambocor tablets
+2026-04-21 01:35:36,735 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:38,236 [INFO] [30/75] Searching: Lidocaine injection
+2026-04-21 01:35:39,994 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:41,495 [INFO] [31/75] Searching: Ivabradine / Procoralan tablets
+2026-04-21 01:35:43,685 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:45,186 [INFO] [32/75] Searching: Cefalexin / Keflex capsules
+2026-04-21 01:35:47,609 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:49,111 [INFO] [33/75] Searching: Ciprofloxacin / Ciproxin tablets
+2026-04-21 01:35:51,251 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:52,753 [INFO] [34/75] Searching: Azithromycin / Zithromax capsules
+2026-04-21 01:35:56,802 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:35:58,304 [INFO] [35/75] Searching: Cefuroxime Axetil / Zinnat tablets
+2026-04-21 01:36:00,846 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:02,347 [INFO] [36/75] Searching: Flucloxacillin / Floxapen capsules
+2026-04-21 01:36:05,027 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:06,528 [INFO] [37/75] Searching: Meropenem / Meronem injection vials
+2026-04-21 01:36:08,827 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:10,328 [INFO] [38/75] Searching: Itraconazole / Sporanox capsules
+2026-04-21 01:36:12,847 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:14,348 [INFO] [39/75] Searching: Deplus (Cholecalciferol / Vitamin D3) tablets
+2026-04-21 01:36:16,820 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:18,321 [INFO] [40/75] Searching: Vitamin B1+B6+B12 / Neurobion tablets
+2026-04-21 01:36:20,606 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:22,107 [INFO] [41/75] Searching: Vitamin E capsules
+2026-04-21 01:36:26,686 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:28,188 [INFO] [42/75] Searching: Alendronate sodium / Fosamax tablets
+2026-04-21 01:36:30,765 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:32,266 [INFO] [43/75] Searching: Levothyroxine / Euthyrox tablets
+2026-04-21 01:36:34,675 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:36,176 [INFO] [44/75] Searching: Cetirizine / Zirtek tablets
+2026-04-21 01:36:39,038 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:40,540 [INFO] [45/75] Searching: Loratadine / Clarityn tablets
+2026-04-21 01:36:43,410 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:44,912 [INFO] [46/75] Searching: Chlorpheniramine / Piriton tablets
+2026-04-21 01:36:47,375 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:48,876 [INFO] [47/75] Searching: Mupirocin / Bactroban ointment 2%
+2026-04-21 01:36:51,430 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:52,932 [INFO] [48/75] Searching: Fluocinolone acetonide + Miconazole nitrate ointment
+2026-04-21 01:36:56,810 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:36:58,311 [INFO] [49/75] Searching: Betamethasone valerate / Betnovate cream
+2026-04-21 01:37:00,393 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:37:05,598 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:07,099 [INFO] [50/75] Searching: Famotidine / Pepcid tablets
+2026-04-21 01:37:09,633 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:11,134 [INFO] [51/75] Searching: Ranitidine tablets (historical reference)
+2026-04-21 01:37:13,307 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:14,808 [INFO] [52/75] Searching: Cimetidine tablets
+2026-04-21 01:37:17,729 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:19,231 [INFO] [53/75] Searching: Omeprazole gastro-resistant capsules
+2026-04-21 01:37:22,357 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:23,858 [INFO] [54/75] Searching: Lansoprazole gastro-resistant capsules
+2026-04-21 01:37:26,364 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:27,865 [INFO] [55/75] Searching: Pantoprazole gastro-resistant tablets
+2026-04-21 01:37:30,138 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:31,639 [INFO] [56/75] Searching: Gastro-resistant Diclofenac / Voltarol tablets
+2026-04-21 01:37:32,809 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:37:36,712 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:38,214 [INFO] [57/75] Searching: Gastro-resistant Aspirin tablets (GI indication)
+2026-04-21 01:37:39,917 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:41,418 [INFO] [58/75] Searching: Ibuprofen tablets
+2026-04-21 01:37:43,272 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:44,773 [INFO] [59/75] Searching: Paracetamol tablets
+2026-04-21 01:37:46,768 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:48,269 [INFO] [60/75] Searching: Diclofenac gastro-resistant / Voltarol tablets (CNS – pain)
+2026-04-21 01:37:50,315 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:51,816 [INFO] [61/75] Searching: Tramadol hydrochloride capsules
+2026-04-21 01:37:53,240 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:54,742 [INFO] [62/75] Searching: Duloxetine / Cymbalta capsules
+2026-04-21 01:37:56,922 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:37:58,424 [INFO] [63/75] Searching: Citalopram / Cipramil tablets
+2026-04-21 01:38:00,722 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:02,223 [INFO] [64/75] Searching: Sertraline / Lustral tablets
+2026-04-21 01:38:04,174 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:05,676 [INFO] [65/75] Searching: Quetiapine / Seroquel tablets
+2026-04-21 01:38:07,921 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:09,422 [INFO] [66/75] Searching: Haloperidol / Haldol tablets
+2026-04-21 01:38:11,709 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:13,210 [INFO] [67/75] Searching: Risperidone / Risperdal tablets
+2026-04-21 01:38:14,565 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:38:18,904 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:20,405 [INFO] [68/75] Searching: Tizanidine / Zanaflex tablets
+2026-04-21 01:38:22,318 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:23,819 [INFO] [69/75] Searching: Baclofen tablets
+2026-04-21 01:38:25,958 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:27,459 [INFO] [70/75] Searching: Diazepam tablets
+2026-04-21 01:38:29,328 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:30,830 [INFO] [71/75] Searching: Cinnarizine / Stugeron tablets
+2026-04-21 01:38:35,860 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:37,361 [INFO] [72/75] Searching: Betahistine / Serc tablets
+2026-04-21 01:38:38,554 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:38:43,272 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:44,773 [INFO] [73/75] Searching: Prochlorperazine / Stemetil tablets
+2026-04-21 01:38:46,421 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 01:38:50,906 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:52,408 [INFO] [74/75] Searching: Norethindrone acetate / Aygestin tablets
+2026-04-21 01:38:54,795 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:56,296 [INFO] [75/75] Searching: Letrozole / Femara tablets
+2026-04-21 01:38:58,321 [INFO]   ✓ Downloaded successfully
+2026-04-21 01:38:59,821 [INFO] 
+   Total photos downloaded: 75/75
+2026-04-21 01:38:59,822 [INFO] 
+Step 3: Inserting photos into document...
+2026-04-21 01:38:59,873 [INFO]   ✓ Inserted photo for: Letrozole / Femara tablets
+2026-04-21 01:38:59,889 [INFO]   ✓ Inserted photo for: Norethindrone acetate / Aygestin tablets
+2026-04-21 01:38:59,904 [INFO]   ✓ Inserted photo for: Prochlorperazine / Stemetil tablets
+2026-04-21 01:38:59,918 [INFO]   ✓ Inserted photo for: Betahistine / Serc tablets
+2026-04-21 01:38:59,933 [INFO]   ✓ Inserted photo for: Cinnarizine / Stugeron tablets
+2026-04-21 01:38:59,950 [INFO]   ✓ Inserted photo for: Diazepam tablets
+2026-04-21 01:38:59,964 [INFO]   ✓ Inserted photo for: Baclofen tablets
+2026-04-21 01:38:59,981 [INFO]   ✓ Inserted photo for: Tizanidine / Zanaflex tablets
+2026-04-21 01:38:59,997 [INFO]   ✓ Inserted photo for: Risperidone / Risperdal tablets
+2026-04-21 01:39:00,012 [INFO]   ✓ Inserted photo for: Haloperidol / Haldol tablets
+2026-04-21 01:39:00,029 [INFO]   ✓ Inserted photo for: Quetiapine / Seroquel tablets
+2026-04-21 01:39:00,045 [INFO]   ✓ Inserted photo for: Sertraline / Lustral tablets
+2026-04-21 01:39:00,059 [INFO]   ✓ Inserted photo for: Citalopram / Cipramil tablets
+2026-04-21 01:39:00,075 [INFO]   ✓ Inserted photo for: Duloxetine / Cymbalta capsules
+2026-04-21 01:39:00,087 [ERROR]   ✗ Failed to insert photo for Tramadol hydrochloride capsules: 
+2026-04-21 01:39:00,102 [INFO]   ✓ Inserted photo for: Diclofenac gastro-resistant / Voltarol tablets (CNS – pain)
+2026-04-21 01:39:00,117 [INFO]   ✓ Inserted photo for: Paracetamol tablets
+2026-04-21 01:39:00,133 [INFO]   ✓ Inserted photo for: Ibuprofen tablets
+2026-04-21 01:39:00,153 [INFO]   ✓ Inserted photo for: Gastro-resistant Aspirin tablets (GI indication)
+2026-04-21 01:39:00,170 [INFO]   ✓ Inserted photo for: Gastro-resistant Diclofenac / Voltarol tablets
+2026-04-21 01:39:00,187 [INFO]   ✓ Inserted photo for: Pantoprazole gastro-resistant tablets
+2026-04-21 01:39:00,207 [INFO]   ✓ Inserted photo for: Lansoprazole gastro-resistant capsules
+2026-04-21 01:39:00,227 [INFO]   ✓ Inserted photo for: Omeprazole gastro-resistant capsules
+2026-04-21 01:39:00,244 [INFO]   ✓ Inserted photo for: Cimetidine tablets
+2026-04-21 01:39:00,261 [INFO]   ✓ Inserted photo for: Ranitidine tablets (historical reference)
+2026-04-21 01:39:00,279 [INFO]   ✓ Inserted photo for: Famotidine / Pepcid tablets
+2026-04-21 01:39:00,296 [INFO]   ✓ Inserted photo for: Betamethasone valerate / Betnovate cream
+2026-04-21 01:39:00,313 [INFO]   ✓ Inserted photo for: Fluocinolone acetonide + Miconazole nitrate ointment
+2026-04-21 01:39:00,330 [INFO]   ✓ Inserted photo for: Mupirocin / Bactroban ointment 2%
+2026-04-21 01:39:00,347 [INFO]   ✓ Inserted photo for: Chlorpheniramine / Piriton tablets
+2026-04-21 01:39:00,364 [INFO]   ✓ Inserted photo for: Loratadine / Clarityn tablets
+2026-04-21 01:39:00,382 [INFO]   ✓ Inserted photo for: Cetirizine / Zirtek tablets
+2026-04-21 01:39:00,401 [INFO]   ✓ Inserted photo for: Levothyroxine / Euthyrox tablets
+2026-04-21 01:39:00,419 [INFO]   ✓ Inserted photo for: Alendronate sodium / Fosamax tablets
+2026-04-21 01:39:00,435 [INFO]   ✓ Inserted photo for: Vitamin E capsules
+2026-04-21 01:39:00,450 [INFO]   ✓ Inserted photo for: Vitamin B1+B6+B12 / Neurobion tablets
+2026-04-21 01:39:00,471 [INFO]   ✓ Inserted photo for: Deplus (Cholecalciferol / Vitamin D3) tablets
+2026-04-21 01:39:00,486 [INFO]   ✓ Inserted photo for: Itraconazole / Sporanox capsules
+2026-04-21 01:39:00,504 [INFO]   ✓ Inserted photo for: Meropenem / Meronem injection vials
+2026-04-21 01:39:00,519 [INFO]   ✓ Inserted photo for: Flucloxacillin / Floxapen capsules
+2026-04-21 01:39:00,536 [INFO]   ✓ Inserted photo for: Cefuroxime Axetil / Zinnat tablets
+2026-04-21 01:39:00,554 [INFO]   ✓ Inserted photo for: Azithromycin / Zithromax capsules
+2026-04-21 01:39:00,571 [INFO]   ✓ Inserted photo for: Ciprofloxacin / Ciproxin tablets
+2026-04-21 01:39:00,589 [INFO]   ✓ Inserted photo for: Cefalexin / Keflex capsules
+2026-04-21 01:39:00,605 [INFO]   ✓ Inserted photo for: Ivabradine / Procoralan tablets
+2026-04-21 01:39:00,622 [INFO]   ✓ Inserted photo for: Lidocaine injection
+2026-04-21 01:39:00,638 [INFO]   ✓ Inserted photo for: Flecainide / Tambocor tablets
+2026-04-21 01:39:00,654 [INFO]   ✓ Inserted photo for: Amiodarone / Cordarone tablets
+2026-04-21 01:39:00,672 [INFO]   ✓ Inserted photo for: Ranolazine / Ranexa extended-release tablets
+2026-04-21 01:39:00,686 [INFO]   ✓ Inserted photo for: Isosorbide mononitrate MR / Imdur tablets
+2026-04-21 01:39:00,704 [INFO]   ✓ Inserted photo for: Glyceryl trinitrate (GTN) sublingual tablets/spray
+2026-04-21 01:39:00,720 [INFO]   ✓ Inserted photo for: Sildenafil citrate / Viagra tablets
+2026-04-21 01:39:00,738 [INFO]   ✓ Inserted photo for: Metformin / Glucophage tablets
+2026-04-21 01:39:00,754 [INFO]   ✓ Inserted photo for: Empagliflozin / Jardiance tablets
+2026-04-21 01:39:00,771 [INFO]   ✓ Inserted photo for: Gliclazide / Diamicron tablets
+2026-04-21 01:39:00,789 [INFO]   ✓ Inserted photo for: Sitagliptin phosphate / Januvia tablets
+2026-04-21 01:39:00,806 [INFO]   ✓ Inserted photo for: Atorvastatin / Lipitor tablets
+2026-04-21 01:39:00,824 [INFO]   ✓ Inserted photo for: Rosuvastatin / Crestor tablets
+2026-04-21 01:39:00,842 [INFO]   ✓ Inserted photo for: Ezetimibe / Ezetrol tablets
+2026-04-21 01:39:00,859 [INFO]   ✓ Inserted photo for: Nifedipine modified-release / Adalat LA tablets
+2026-04-21 01:39:00,878 [INFO]   ✓ Inserted photo for: Cilnidipine tablets
+2026-04-21 01:39:00,895 [INFO]   ✓ Inserted photo for: Amlodipine / Istin tablets
+2026-04-21 01:39:00,914 [INFO]   ✓ Inserted photo for: Nebivolol / Nebilet tablets
+2026-04-21 01:39:00,932 [INFO]   ✓ Inserted photo for: Metoprolol Tartrate / Betaloc tablets
+2026-04-21 01:39:00,956 [INFO]   ✓ Inserted photo for: Bisoprolol fumarate / Cardicor tablets
+2026-04-21 01:39:00,971 [INFO]   ✓ Inserted photo for: Losartan potassium / Cozaar tablets
+2026-04-21 01:39:00,989 [INFO]   ✓ Inserted photo for: Lisinopril / Zestril tablets
+2026-04-21 01:39:01,008 [INFO]   ✓ Inserted photo for: Enalapril / Innovace tablets
+2026-04-21 01:39:01,026 [INFO]   ✓ Inserted photo for: Ramipril / Tritace capsules
+2026-04-21 01:39:01,044 [INFO]   ✓ Inserted photo for: Clopidogrel / Plavix tablets
+2026-04-21 01:39:01,061 [INFO]   ✓ Inserted photo for: Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 01:39:01,080 [INFO]   ✓ Inserted photo for: Gastro-resistant Aspirin tablets
+2026-04-21 01:39:01,095 [INFO]   ✓ Inserted photo for: Rivaroxaban / Xarelto tablets
+2026-04-21 01:39:01,112 [INFO]   ✓ Inserted photo for: Warfarin tablets
+2026-04-21 01:39:01,134 [INFO]   ✓ Inserted photo for: Apixaban / Thromban pack
+2026-04-21 01:39:01,217 [INFO] 
+Document saved: Drug_Classification_BNF_with_photos.docx
+2026-04-21 01:39:01,218 [INFO] Photos inserted: 74, Missing: 1
+2026-04-21 01:39:01,219 [INFO] Done!
+2026-04-21 21:59:41,774 [INFO] ============================================================
+2026-04-21 21:59:41,775 [INFO]   Medicine Photo Scraper & Document Inserter
+2026-04-21 21:59:41,775 [INFO] ============================================================
+2026-04-21 21:59:41,775 [INFO] 
+Step 1: Extracting medicine names from document...
+2026-04-21 21:59:41,955 [INFO]    Found 157 photo placeholders
+2026-04-21 21:59:41,955 [INFO] 
+   Unique medicines (157):
+2026-04-21 21:59:41,956 [INFO]      1. Acamprosate calcium (Campral) tablets
+2026-04-21 21:59:41,956 [INFO]      2. Acetazolamide (Diamox) tablets
+2026-04-21 21:59:41,956 [INFO]      3. Acetylcysteine (Fluimucil) sachets
+2026-04-21 21:59:41,956 [INFO]      4. Alendronate sodium (Fosamax) tablets
+2026-04-21 21:59:41,956 [INFO]      5. Alfuzosin (Xatral) tablets
+2026-04-21 21:59:41,956 [INFO]      6. Aluminum hydroxide (Alu-Cap) capsules
+2026-04-21 21:59:41,957 [INFO]      7. Amiodarone (Cordarone) tablets
+2026-04-21 21:59:41,957 [INFO]      8. Amlodipine (Istin/Norvasc) tablets
+2026-04-21 21:59:41,957 [INFO]      9. Amoxicillin (Amoxil) capsules
+2026-04-21 21:59:41,957 [INFO]     10. Apixaban (Thromban/Eliquis) tablets
+2026-04-21 21:59:41,957 [INFO]     11. Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 21:59:41,957 [INFO]     12. Atorvastatin (Lipitor) tablets
+2026-04-21 21:59:41,957 [INFO]     13. Azithromycin (Zithromax) capsules
+2026-04-21 21:59:41,958 [INFO]     14. Baclofen (Lioresal) tablets
+2026-04-21 21:59:41,958 [INFO]     15. Beclometasone dipropionate (Clenil/Qvar) inhaler
+2026-04-21 21:59:41,958 [INFO]     16. Betahistine (Serc) tablets
+2026-04-21 21:59:41,958 [INFO]     17. Betamethasone valerate (Betnovate) cream
+2026-04-21 21:59:41,958 [INFO]     18. Bethanechol chloride (Myotonine) tablets
+2026-04-21 21:59:41,958 [INFO]     19. Bethanechol injection
+2026-04-21 21:59:41,958 [INFO]     20. Bisacodyl (Dulcolax) tablets
+2026-04-21 21:59:41,958 [INFO]     21. Bisoprolol fumarate tablets
+2026-04-21 21:59:41,958 [INFO]     22. Budesonide (Pulmicort) inhaler
+2026-04-21 21:59:41,959 [INFO]     23. Carbachol (Isopto Carbachol) eye drops
+2026-04-21 21:59:41,959 [INFO]     24. Carbamazepine (Tegretol) tablets
+2026-04-21 21:59:41,959 [INFO]     25. Carbocisteine (Mucodyne) capsules
+2026-04-21 21:59:41,959 [INFO]     26. Cefalexin (Keflex) capsules
+2026-04-21 21:59:41,959 [INFO]     27. Cefuroxime axetil (Zinnat) tablets
+2026-04-21 21:59:41,959 [INFO]     28. Cetirizine hydrochloride (Zirtek) tablets
+2026-04-21 21:59:41,959 [INFO]     29. Chenodeoxycholic acid capsules
+2026-04-21 21:59:41,959 [INFO]     30. Chlorpheniramine maleate (Piriton) tablets
+2026-04-21 21:59:41,959 [INFO]     31. Cholecalciferol / Vitamin D3 (Deplus) tablets
+2026-04-21 21:59:41,959 [INFO]     32. Cilnidipine tablets
+2026-04-21 21:59:41,960 [INFO]     33. Cimetidine (Tagamet) tablets
+2026-04-21 21:59:41,960 [INFO]     34. Cinnarizine (Stugeron) tablets
+2026-04-21 21:59:41,960 [INFO]     35. Ciprofloxacin (Ciproxin) tablets
+2026-04-21 21:59:41,960 [INFO]     36. Citalopram (Cipramil) tablets
+2026-04-21 21:59:41,960 [INFO]     37. Citric acid + potassium citrate granules
+2026-04-21 21:59:41,960 [INFO]     38. Clarithromycin (Klaricid) tablets
+2026-04-21 21:59:41,960 [INFO]     39. Clopidogrel (Plavix) tablets
+2026-04-21 21:59:41,960 [INFO]     40. Co-careldopa / Levodopa + carbidopa (Sinemet) tablets
+2026-04-21 21:59:41,960 [INFO]     41. Codeine phosphate tablets
+2026-04-21 21:59:41,960 [INFO]     42. Cyclizine (Valoid) tablets
+2026-04-21 21:59:41,960 [INFO]     43. Cyclobenzaprine (Flexeril) tablets
+2026-04-21 21:59:41,961 [INFO]     44. Darifenacin (Emselex) tablets
+2026-04-21 21:59:41,961 [INFO]     45. Desmopressin acetate (DDAVP/DesmoMelt) tablets
+2026-04-21 21:59:41,961 [INFO]     46. Desmopressin nasal spray
+2026-04-21 21:59:41,961 [INFO]     47. Diclofenac sodium gastro-resistant (Voltarol) tablets
+2026-04-21 21:59:41,961 [INFO]     48. Digitoxin tablets
+2026-04-21 21:59:41,961 [INFO]     49. Digoxin (Lanoxin) tablets
+2026-04-21 21:59:41,961 [INFO]     50. Digoxin injection (Lanoxin)
+2026-04-21 21:59:41,961 [INFO]     51. Disulfiram (Antabuse) tablets
+2026-04-21 21:59:41,962 [INFO]     52. Dobutamine (Dobutrex) injection
+2026-04-21 21:59:41,962 [INFO]     53. Domperidone (Motilium) tablets
+2026-04-21 21:59:41,962 [INFO]     54. Donepezil hydrochloride (Aricept) tablets
+2026-04-21 21:59:41,962 [INFO]     55. Dopamine hydrochloride injection
+2026-04-21 21:59:41,962 [INFO]     56. Dornase alfa (Pulmozyme) nebuliser solution
+2026-04-21 21:59:41,962 [INFO]     57. Dorzolamide (Trusopt) eye drops
+2026-04-21 21:59:41,962 [INFO]     58. Doxazosin (Cardura) tablets
+2026-04-21 21:59:41,962 [INFO]     59. Duloxetine hydrochloride delayed-release (Cymbalta) capsules
+2026-04-21 21:59:41,962 [INFO]     60. Empagliflozin (Jardiance) tablets
+2026-04-21 21:59:41,962 [INFO]     61. Enalapril (Innovace) tablets
+2026-04-21 21:59:41,962 [INFO]     62. Erythromycin tablets (gastroparesis)
+2026-04-21 21:59:41,963 [INFO]     63. Esomeprazole (Nexium) tablets
+2026-04-21 21:59:41,963 [INFO]     64. Ezetimibe (Ezetrol) tablets
+2026-04-21 21:59:41,963 [INFO]     65. Famotidine (Pepcid) tablets
+2026-04-21 21:59:41,963 [INFO]     66. Flecainide acetate (Tambocor) tablets
+2026-04-21 21:59:41,963 [INFO]     67. Flucloxacillin (Floxapen) capsules
+2026-04-21 21:59:41,963 [INFO]     68. Fluocinolone acetonide + miconazole nitrate ointment
+2026-04-21 21:59:41,963 [INFO]     69. Fluticasone propionate (Flixotide) inhaler
+2026-04-21 21:59:41,963 [INFO]     70. Galantamine (Reminyl) tablets
+2026-04-21 21:59:41,963 [INFO]     71. Gastro-resistant Aspirin tablets
+2026-04-21 21:59:41,963 [INFO]     72. Gaviscon Advance suspension
+2026-04-21 21:59:41,963 [INFO]     73. Gliclazide (Diamicron) tablets
+2026-04-21 21:59:41,963 [INFO]     74. Glyceryl trinitrate sublingual tablets
+2026-04-21 21:59:41,964 [INFO]     75. Guaifenesin (Robitussin) tablets
+2026-04-21 21:59:41,964 [INFO]     76. Guaifenesin oral solution
+2026-04-21 21:59:41,964 [INFO]     77. Hydrochlorothiazide tablets
+2026-04-21 21:59:41,964 [INFO]     78. Hyoscine butylbromide (Buscopan) tablets
+2026-04-21 21:59:41,964 [INFO]     79. Ibuprofen (Brufen) tablets
+2026-04-21 21:59:41,964 [INFO]     80. Indapamide sustained-release (Natrilix SR) tablets
+2026-04-21 21:59:41,964 [INFO]     81. Ipratropium bromide (Atrovent) inhaler
+2026-04-21 21:59:41,964 [INFO]     82. Isosorbide mononitrate modified-release (Imdur) tablets
+2026-04-21 21:59:41,964 [INFO]     83. Itraconazole (Sporanox) capsules
+2026-04-21 21:59:41,964 [INFO]     84. Ivabradine (Procoralan) tablets
+2026-04-21 21:59:41,964 [INFO]     85. Lactulose (Duphalac) solution
+2026-04-21 21:59:41,964 [INFO]     86. Lamotrigine (Lamictal) tablets
+2026-04-21 21:59:41,965 [INFO]     87. Lansoprazole (Zoton) capsules
+2026-04-21 21:59:41,965 [INFO]     88. Levothyroxine sodium (Euthyrox) tablets
+2026-04-21 21:59:41,965 [INFO]     89. Lidocaine hydrochloride injection
+2026-04-21 21:59:41,965 [INFO]     90. Liraglutide (Saxenda) injection
+2026-04-21 21:59:41,965 [INFO]     91. Lisinopril (Zestril) tablets
+2026-04-21 21:59:41,965 [INFO]     92. Loperamide hydrochloride (Imodium) capsules
+2026-04-21 21:59:41,965 [INFO]     93. Loratadine (Clarityn) tablets
+2026-04-21 21:59:41,965 [INFO]     94. Losartan potassium (Cozaar) tablets
+2026-04-21 21:59:41,965 [INFO]     95. Magnesium trisilicate mixture
+2026-04-21 21:59:41,965 [INFO]     96. Mebeverine hydrochloride (Colofac) tablets
+2026-04-21 21:59:41,965 [INFO]     97. Meclizine (Antivert) tablets
+2026-04-21 21:59:41,965 [INFO]     98. Meropenem (Meronem) injection
+2026-04-21 21:59:41,966 [INFO]     99. Metformin (Glucophage) tablets
+2026-04-21 21:59:41,966 [INFO]    100. Methazolamide tablets
+2026-04-21 21:59:41,966 [INFO]    101. Metoclopramide hydrochloride (Maxolon) tablets
+2026-04-21 21:59:41,966 [INFO]    102. Metoprolol Tartrate (Betaloc) tablets
+2026-04-21 21:59:41,966 [INFO]    103. Metronidazole (Flagyl) tablets
+2026-04-21 21:59:41,966 [INFO]    104. Milrinone (Primacor) injection
+2026-04-21 21:59:41,966 [INFO]    105. Montelukast (Singulair) tablets
+2026-04-21 21:59:41,966 [INFO]    106. Mupirocin (Bactroban) ointment
+2026-04-21 21:59:41,966 [INFO]    107. Naltrexone (Adepend/Revia) tablets
+2026-04-21 21:59:41,966 [INFO]    108. Nebivolol (Nebilet) tablets
+2026-04-21 21:59:41,967 [INFO]    109. Nifedipine modified-release (Adalat LA) tablets
+2026-04-21 21:59:41,967 [INFO]    110. Nizatidine (Axid) capsules
+2026-04-21 21:59:41,967 [INFO]    111. Omalizumab (Xolair) injection
+2026-04-21 21:59:41,967 [INFO]    112. Omeprazole (Losec) capsules
+2026-04-21 21:59:41,967 [INFO]    113. Ondansetron (Zofran) tablets
+2026-04-21 21:59:41,967 [INFO]    114. Orlistat (Xenical) capsules
+2026-04-21 21:59:41,967 [INFO]    115. Oxybutynin (Ditropan) tablets – Urinary Incontinence
+2026-04-21 21:59:41,968 [INFO]    116. Oxybutynin hydrochloride (Ditropan) tablets
+2026-04-21 21:59:41,968 [INFO]    117. Pancreatin (Creon) capsules
+2026-04-21 21:59:41,968 [INFO]    118. Pancreatin (Pancrex) granules
+2026-04-21 21:59:41,968 [INFO]    119. Paracetamol (Panadol) tablets
+2026-04-21 21:59:41,968 [INFO]    120. Peppermint oil (Colpermin) capsules
+2026-04-21 21:59:41,968 [INFO]    121. Phentermine (Duromine) capsules
+2026-04-21 21:59:41,968 [INFO]    122. Phenylephrine nasal spray
+2026-04-21 21:59:41,969 [INFO]    123. Potassium citrate mixture
+2026-04-21 21:59:41,969 [INFO]    124. Potassium iodide solution
+2026-04-21 21:59:41,969 [INFO]    125. Pramipexole (Mirapexin) tablets
+2026-04-21 21:59:41,969 [INFO]    126. Prochlorperazine (Stemetil) tablets
+2026-04-21 21:59:41,969 [INFO]    127. Pseudoephedrine hydrochloride (Sudafed) tablets
+2026-04-21 21:59:41,969 [INFO]    128. Quetiapine (Seroquel) tablets
+2026-04-21 21:59:41,969 [INFO]    129. Racecadotril (Hidrasec) capsules
+2026-04-21 21:59:41,969 [INFO]    130. Ramipril (Tritace) capsules
+2026-04-21 21:59:41,969 [INFO]    131. Ranolazine extended-release (Ranexa) tablets
+2026-04-21 21:59:41,969 [INFO]    132. Rivaroxaban (Xarelto) tablets
+2026-04-21 21:59:41,969 [INFO]    133. Rivastigmine (Exelon) capsules
+2026-04-21 21:59:41,970 [INFO]    134. Rosuvastatin (Crestor) tablets
+2026-04-21 21:59:41,970 [INFO]    135. Salbutamol (Ventolin) inhaler
+2026-04-21 21:59:41,970 [INFO]    136. Selegiline (Eldepryl) tablets
+2026-04-21 21:59:41,970 [INFO]    137. Senna (Senokot) tablets
+2026-04-21 21:59:41,970 [INFO]    138. Sildenafil citrate (Viagra/Revatio) tablets
+2026-04-21 21:59:41,970 [INFO]    139. Simeticone (Infacol) tablets
+2026-04-21 21:59:41,970 [INFO]    140. Sitagliptin phosphate (Januvia) tablets
+2026-04-21 21:59:41,970 [INFO]    141. Sodium bicarbonate tablets
+2026-04-21 21:59:41,970 [INFO]    142. Sodium cromoglicate (Intal) inhaler
+2026-04-21 21:59:41,970 [INFO]    143. Sodium valproate (Epilim) tablets
+2026-04-21 21:59:41,970 [INFO]    144. Solifenacin succinate (Vesicare) tablets
+2026-04-21 21:59:41,971 [INFO]    145. Solifenacin succinate (Vesicare) tablets – Urinary Incontinence
+2026-04-21 21:59:41,971 [INFO]    146. Spironolactone (Aldactone) tablets
+2026-04-21 21:59:41,971 [INFO]    147. Tamsulosin hydrochloride (Flomax) capsules
+2026-04-21 21:59:41,971 [INFO]    148. Tiotropium (Spiriva) inhaler
+2026-04-21 21:59:41,971 [INFO]    149. Tizanidine (Zanaflex) tablets
+2026-04-21 21:59:41,971 [INFO]    150. Tolterodine tartrate (Detrusitol) tablets
+2026-04-21 21:59:41,971 [INFO]    151. Ursodeoxycholic acid (Ursofalk) tablets
+2026-04-21 21:59:41,971 [INFO]    152. Ursodiol (Actigall) capsules
+2026-04-21 21:59:41,971 [INFO]    153. Vasopressin (Pitressin) injection
+2026-04-21 21:59:41,972 [INFO]    154. Vitamin B1+B6+B12 (Neurobion) tablets
+2026-04-21 21:59:41,972 [INFO]    155. Vitamin E (alpha-tocopherol) capsules
+2026-04-21 21:59:41,972 [INFO]    156. Warfarin tablets
+2026-04-21 21:59:41,972 [INFO]    157. Xylometazoline (Otrivine) nasal drops
+2026-04-21 21:59:41,972 [INFO] 
+Step 2: Downloading medicine photos...
+2026-04-21 21:59:41,973 [INFO] Found 157 placeholders, 157 unique medicines
+2026-04-21 21:59:41,973 [INFO] [1/157] Searching: Apixaban (Thromban/Eliquis) tablets
+2026-04-21 21:59:44,463 [INFO]   ✓ Downloaded successfully
+2026-04-21 21:59:45,965 [INFO] [2/157] Searching: Warfarin tablets
+2026-04-21 21:59:48,133 [INFO]   ✓ Downloaded successfully
+2026-04-21 21:59:49,635 [INFO] [3/157] Searching: Rivaroxaban (Xarelto) tablets
+2026-04-21 21:59:52,119 [INFO]   ✓ Downloaded successfully
+2026-04-21 21:59:53,620 [INFO] [4/157] Searching: Gastro-resistant Aspirin tablets
+2026-04-21 21:59:54,934 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:00:01,439 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:02,940 [INFO] [5/157] Searching: Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 22:00:05,076 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:06,577 [INFO] [6/157] Searching: Clopidogrel (Plavix) tablets
+2026-04-21 22:00:10,880 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:12,382 [INFO] [7/157] Searching: Ramipril (Tritace) capsules
+2026-04-21 22:00:16,595 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:18,096 [INFO] [8/157] Searching: Enalapril (Innovace) tablets
+2026-04-21 22:00:21,440 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:22,942 [INFO] [9/157] Searching: Lisinopril (Zestril) tablets
+2026-04-21 22:00:26,541 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:28,042 [INFO] [10/157] Searching: Losartan potassium (Cozaar) tablets
+2026-04-21 22:00:31,583 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:33,084 [INFO] [11/157] Searching: Bisoprolol fumarate tablets
+2026-04-21 22:00:37,040 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:38,541 [INFO] [12/157] Searching: Metoprolol Tartrate (Betaloc) tablets
+2026-04-21 22:00:41,090 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:42,591 [INFO] [13/157] Searching: Nebivolol (Nebilet) tablets
+2026-04-21 22:00:46,186 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:47,688 [INFO] [14/157] Searching: Amlodipine (Istin/Norvasc) tablets
+2026-04-21 22:00:50,238 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:51,740 [INFO] [15/157] Searching: Cilnidipine tablets
+2026-04-21 22:00:55,057 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:56,558 [INFO] [16/157] Searching: Nifedipine modified-release (Adalat LA) tablets
+2026-04-21 22:00:58,425 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:00:59,927 [INFO] [17/157] Searching: Ezetimibe (Ezetrol) tablets
+2026-04-21 22:01:02,983 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:04,485 [INFO] [18/157] Searching: Rosuvastatin (Crestor) tablets
+2026-04-21 22:01:09,843 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:11,344 [INFO] [19/157] Searching: Atorvastatin (Lipitor) tablets
+2026-04-21 22:01:15,955 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:17,456 [INFO] [20/157] Searching: Sitagliptin phosphate (Januvia) tablets
+2026-04-21 22:01:19,672 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:21,173 [INFO] [21/157] Searching: Gliclazide (Diamicron) tablets
+2026-04-21 22:01:27,494 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:28,995 [INFO] [22/157] Searching: Empagliflozin (Jardiance) tablets
+2026-04-21 22:01:34,145 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:35,646 [INFO] [23/157] Searching: Metformin (Glucophage) tablets
+2026-04-21 22:01:37,901 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:39,402 [INFO] [24/157] Searching: Digoxin (Lanoxin) tablets
+2026-04-21 22:01:43,242 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:44,744 [INFO] [25/157] Searching: Digoxin injection (Lanoxin)
+2026-04-21 22:01:47,446 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:48,947 [INFO] [26/157] Searching: Digitoxin tablets
+2026-04-21 22:01:51,251 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:52,752 [INFO] [27/157] Searching: Sildenafil citrate (Viagra/Revatio) tablets
+2026-04-21 22:01:55,204 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:01:56,706 [INFO] [28/157] Searching: Glyceryl trinitrate sublingual tablets
+2026-04-21 22:01:58,905 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:00,407 [INFO] [29/157] Searching: Isosorbide mononitrate modified-release (Imdur) tablets
+2026-04-21 22:02:02,651 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:04,152 [INFO] [30/157] Searching: Ranolazine extended-release (Ranexa) tablets
+2026-04-21 22:02:06,500 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:08,002 [INFO] [31/157] Searching: Dobutamine (Dobutrex) injection
+2026-04-21 22:02:12,309 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:13,810 [INFO] [32/157] Searching: Milrinone (Primacor) injection
+2026-04-21 22:02:18,491 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:19,992 [INFO] [33/157] Searching: Dopamine hydrochloride injection
+2026-04-21 22:02:22,640 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:24,141 [INFO] [34/157] Searching: Amiodarone (Cordarone) tablets
+2026-04-21 22:02:26,283 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:27,784 [INFO] [35/157] Searching: Flecainide acetate (Tambocor) tablets
+2026-04-21 22:02:30,299 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:31,800 [INFO] [36/157] Searching: Lidocaine hydrochloride injection
+2026-04-21 22:02:35,255 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:36,756 [INFO] [37/157] Searching: Ivabradine (Procoralan) tablets
+2026-04-21 22:02:39,982 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:41,483 [INFO] [38/157] Searching: Cefalexin (Keflex) capsules
+2026-04-21 22:02:47,957 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:49,458 [INFO] [39/157] Searching: Ciprofloxacin (Ciproxin) tablets
+2026-04-21 22:02:53,904 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:55,405 [INFO] [40/157] Searching: Azithromycin (Zithromax) capsules
+2026-04-21 22:02:57,923 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:02:59,424 [INFO] [41/157] Searching: Cefuroxime axetil (Zinnat) tablets
+2026-04-21 22:03:01,712 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:03,213 [INFO] [42/157] Searching: Flucloxacillin (Floxapen) capsules
+2026-04-21 22:03:06,140 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:07,641 [INFO] [43/157] Searching: Meropenem (Meronem) injection
+2026-04-21 22:03:11,467 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:12,968 [INFO] [44/157] Searching: Itraconazole (Sporanox) capsules
+2026-04-21 22:03:16,229 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:17,730 [INFO] [45/157] Searching: Spironolactone (Aldactone) tablets
+2026-04-21 22:03:29,227 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:30,728 [INFO] [46/157] Searching: Indapamide sustained-release (Natrilix SR) tablets
+2026-04-21 22:03:34,213 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:35,715 [INFO] [47/157] Searching: Hydrochlorothiazide tablets
+2026-04-21 22:03:42,021 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:43,523 [INFO] [48/157] Searching: Acetazolamide (Diamox) tablets
+2026-04-21 22:03:53,478 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:03:54,980 [INFO] [49/157] Searching: Methazolamide tablets
+2026-04-21 22:04:01,546 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:03,048 [INFO] [50/157] Searching: Dorzolamide (Trusopt) eye drops
+2026-04-21 22:04:07,452 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:08,953 [INFO] [51/157] Searching: Bethanechol chloride (Myotonine) tablets
+2026-04-21 22:04:13,568 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:15,069 [INFO] [52/157] Searching: Bethanechol injection
+2026-04-21 22:04:18,149 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:19,651 [INFO] [53/157] Searching: Carbachol (Isopto Carbachol) eye drops
+2026-04-21 22:04:25,296 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:26,797 [INFO] [54/157] Searching: Solifenacin succinate (Vesicare) tablets
+2026-04-21 22:04:30,630 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:32,132 [INFO] [55/157] Searching: Oxybutynin hydrochloride (Ditropan) tablets
+2026-04-21 22:04:35,528 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:37,029 [INFO] [56/157] Searching: Darifenacin (Emselex) tablets
+2026-04-21 22:04:39,881 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:41,382 [INFO] [57/157] Searching: Tamsulosin hydrochloride (Flomax) capsules
+2026-04-21 22:04:47,990 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:49,492 [INFO] [58/157] Searching: Doxazosin (Cardura) tablets
+2026-04-21 22:04:56,700 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:04:58,201 [INFO] [59/157] Searching: Alfuzosin (Xatral) tablets
+2026-04-21 22:05:02,199 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:05:09,256 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:10,757 [INFO] [60/157] Searching: Desmopressin acetate (DDAVP/DesmoMelt) tablets
+2026-04-21 22:05:13,984 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:15,485 [INFO] [61/157] Searching: Desmopressin nasal spray
+2026-04-21 22:05:17,894 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:19,395 [INFO] [62/157] Searching: Vasopressin (Pitressin) injection
+2026-04-21 22:05:21,803 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:23,304 [INFO] [63/157] Searching: Potassium citrate mixture
+2026-04-21 22:05:25,601 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:27,103 [INFO] [64/157] Searching: Sodium bicarbonate tablets
+2026-04-21 22:05:31,131 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:32,632 [INFO] [65/157] Searching: Citric acid + potassium citrate granules
+2026-04-21 22:05:35,121 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:36,623 [INFO] [66/157] Searching: Solifenacin succinate (Vesicare) tablets – Urinary Incontinence
+2026-04-21 22:05:39,053 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:40,555 [INFO] [67/157] Searching: Oxybutynin (Ditropan) tablets – Urinary Incontinence
+2026-04-21 22:05:43,683 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:45,185 [INFO] [68/157] Searching: Tolterodine tartrate (Detrusitol) tablets
+2026-04-21 22:05:48,347 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:05:54,086 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:55,587 [INFO] [69/157] Searching: Cholecalciferol / Vitamin D3 (Deplus) tablets
+2026-04-21 22:05:58,136 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:05:59,638 [INFO] [70/157] Searching: Vitamin B1+B6+B12 (Neurobion) tablets
+2026-04-21 22:06:02,345 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:06:09,558 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:06:11,059 [INFO] [71/157] Searching: Vitamin E (alpha-tocopherol) capsules
+2026-04-21 22:06:13,746 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:06:15,247 [INFO] [72/157] Searching: Alendronate sodium (Fosamax) tablets
+2026-04-21 22:06:19,067 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:06:27,271 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:06:28,772 [INFO] [73/157] Searching: Levothyroxine sodium (Euthyrox) tablets
+2026-04-21 22:06:37,883 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:06:47,384 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:06:48,886 [INFO] [74/157] Searching: Cetirizine hydrochloride (Zirtek) tablets
+2026-04-21 22:06:56,135 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:06:57,636 [INFO] [75/157] Searching: Loratadine (Clarityn) tablets
+2026-04-21 22:07:05,488 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:06,989 [INFO] [76/157] Searching: Chlorpheniramine maleate (Piriton) tablets
+2026-04-21 22:07:13,388 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:14,889 [INFO] [77/157] Searching: Montelukast (Singulair) tablets
+2026-04-21 22:07:20,405 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:21,906 [INFO] [78/157] Searching: Sodium cromoglicate (Intal) inhaler
+2026-04-21 22:07:26,162 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:27,664 [INFO] [79/157] Searching: Omalizumab (Xolair) injection
+2026-04-21 22:07:34,142 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:35,643 [INFO] [80/157] Searching: Salbutamol (Ventolin) inhaler
+2026-04-21 22:07:42,183 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:43,684 [INFO] [81/157] Searching: Ipratropium bromide (Atrovent) inhaler
+2026-04-21 22:07:47,338 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:48,839 [INFO] [82/157] Searching: Tiotropium (Spiriva) inhaler
+2026-04-21 22:07:53,123 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:07:54,624 [INFO] [83/157] Searching: Pseudoephedrine hydrochloride (Sudafed) tablets
+2026-04-21 22:07:58,815 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:00,316 [INFO] [84/157] Searching: Phenylephrine nasal spray
+2026-04-21 22:08:04,849 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:06,350 [INFO] [85/157] Searching: Xylometazoline (Otrivine) nasal drops
+2026-04-21 22:08:09,627 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:08:16,134 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:17,635 [INFO] [86/157] Searching: Guaifenesin (Robitussin) tablets
+2026-04-21 22:08:22,416 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:23,917 [INFO] [87/157] Searching: Guaifenesin oral solution
+2026-04-21 22:08:28,649 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:30,151 [INFO] [88/157] Searching: Potassium iodide solution
+2026-04-21 22:08:34,192 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:35,693 [INFO] [89/157] Searching: Carbocisteine (Mucodyne) capsules
+2026-04-21 22:08:39,541 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:41,043 [INFO] [90/157] Searching: Acetylcysteine (Fluimucil) sachets
+2026-04-21 22:08:43,886 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:45,387 [INFO] [91/157] Searching: Dornase alfa (Pulmozyme) nebuliser solution
+2026-04-21 22:08:48,767 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:50,268 [INFO] [92/157] Searching: Beclometasone dipropionate (Clenil/Qvar) inhaler
+2026-04-21 22:08:54,601 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:08:56,103 [INFO] [93/157] Searching: Budesonide (Pulmicort) inhaler
+2026-04-21 22:08:59,536 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:01,038 [INFO] [94/157] Searching: Fluticasone propionate (Flixotide) inhaler
+2026-04-21 22:09:04,392 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:05,893 [INFO] [95/157] Searching: Mupirocin (Bactroban) ointment
+2026-04-21 22:09:13,378 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:14,879 [INFO] [96/157] Searching: Fluocinolone acetonide + miconazole nitrate ointment
+2026-04-21 22:09:20,291 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:21,792 [INFO] [97/157] Searching: Betamethasone valerate (Betnovate) cream
+2026-04-21 22:09:26,896 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:28,397 [INFO] [98/157] Searching: Magnesium trisilicate mixture
+2026-04-21 22:09:36,279 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:37,780 [INFO] [99/157] Searching: Gaviscon Advance suspension
+2026-04-21 22:09:43,785 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:45,286 [INFO] [100/157] Searching: Aluminum hydroxide (Alu-Cap) capsules
+2026-04-21 22:09:51,689 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:53,190 [INFO] [101/157] Searching: Loperamide hydrochloride (Imodium) capsules
+2026-04-21 22:09:58,288 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:09:59,789 [INFO] [102/157] Searching: Codeine phosphate tablets
+2026-04-21 22:10:03,498 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:05,000 [INFO] [103/157] Searching: Racecadotril (Hidrasec) capsules
+2026-04-21 22:10:08,046 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:09,547 [INFO] [104/157] Searching: Pancreatin (Creon) capsules
+2026-04-21 22:10:21,162 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:22,663 [INFO] [105/157] Searching: Pancreatin (Pancrex) granules
+2026-04-21 22:10:28,823 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:30,324 [INFO] [106/157] Searching: Simeticone (Infacol) tablets
+2026-04-21 22:10:35,719 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:37,220 [INFO] [107/157] Searching: Hyoscine butylbromide (Buscopan) tablets
+2026-04-21 22:10:39,789 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:41,291 [INFO] [108/157] Searching: Mebeverine hydrochloride (Colofac) tablets
+2026-04-21 22:10:48,522 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:50,023 [INFO] [109/157] Searching: Peppermint oil (Colpermin) capsules
+2026-04-21 22:10:54,153 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:55,654 [INFO] [110/157] Searching: Ursodeoxycholic acid (Ursofalk) tablets
+2026-04-21 22:10:58,319 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:10:59,820 [INFO] [111/157] Searching: Chenodeoxycholic acid capsules
+2026-04-21 22:11:02,598 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:04,100 [INFO] [112/157] Searching: Ursodiol (Actigall) capsules
+2026-04-21 22:11:08,855 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:10,356 [INFO] [113/157] Searching: Metoclopramide hydrochloride (Maxolon) tablets
+2026-04-21 22:11:16,154 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:17,655 [INFO] [114/157] Searching: Domperidone (Motilium) tablets
+2026-04-21 22:11:23,803 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:25,304 [INFO] [115/157] Searching: Erythromycin tablets (gastroparesis)
+2026-04-21 22:11:43,422 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:44,924 [INFO] [116/157] Searching: Clarithromycin (Klaricid) tablets
+2026-04-21 22:11:55,784 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:11:57,285 [INFO] [117/157] Searching: Amoxicillin (Amoxil) capsules
+2026-04-21 22:12:11,434 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:12:12,935 [INFO] [118/157] Searching: Metronidazole (Flagyl) tablets
+2026-04-21 22:12:27,135 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:12:28,637 [INFO] [119/157] Searching: Famotidine (Pepcid) tablets
+2026-04-21 22:12:36,652 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:12:38,153 [INFO] [120/157] Searching: Cimetidine (Tagamet) tablets
+2026-04-21 22:12:46,852 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:12:48,354 [INFO] [121/157] Searching: Nizatidine (Axid) capsules
+2026-04-21 22:12:53,279 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:13:03,637 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:05,138 [INFO] [122/157] Searching: Omeprazole (Losec) capsules
+2026-04-21 22:13:14,520 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:16,021 [INFO] [123/157] Searching: Esomeprazole (Nexium) tablets
+2026-04-21 22:13:25,191 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:26,693 [INFO] [124/157] Searching: Lansoprazole (Zoton) capsules
+2026-04-21 22:13:32,875 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:34,376 [INFO] [125/157] Searching: Bisacodyl (Dulcolax) tablets
+2026-04-21 22:13:39,387 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:40,889 [INFO] [126/157] Searching: Senna (Senokot) tablets
+2026-04-21 22:13:49,436 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:50,937 [INFO] [127/157] Searching: Lactulose (Duphalac) solution
+2026-04-21 22:13:55,670 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:13:57,172 [INFO] [128/157] Searching: Diclofenac sodium gastro-resistant (Voltarol) tablets
+2026-04-21 22:14:02,745 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:04,247 [INFO] [129/157] Searching: Ibuprofen (Brufen) tablets
+2026-04-21 22:14:08,760 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:10,261 [INFO] [130/157] Searching: Paracetamol (Panadol) tablets
+2026-04-21 22:14:15,235 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:16,736 [INFO] [131/157] Searching: Orlistat (Xenical) capsules
+2026-04-21 22:14:21,275 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:14:31,401 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:32,902 [INFO] [132/157] Searching: Phentermine (Duromine) capsules
+2026-04-21 22:14:39,116 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:40,618 [INFO] [133/157] Searching: Liraglutide (Saxenda) injection
+2026-04-21 22:14:44,441 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:45,942 [INFO] [134/157] Searching: Carbamazepine (Tegretol) tablets
+2026-04-21 22:14:50,683 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:52,185 [INFO] [135/157] Searching: Sodium valproate (Epilim) tablets
+2026-04-21 22:14:56,317 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:14:57,818 [INFO] [136/157] Searching: Lamotrigine (Lamictal) tablets
+2026-04-21 22:15:06,221 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:07,722 [INFO] [137/157] Searching: Cyclizine (Valoid) tablets
+2026-04-21 22:15:12,924 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:14,425 [INFO] [138/157] Searching: Prochlorperazine (Stemetil) tablets
+2026-04-21 22:15:18,228 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:19,729 [INFO] [139/157] Searching: Ondansetron (Zofran) tablets
+2026-04-21 22:15:22,771 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:24,272 [INFO] [140/157] Searching: Cinnarizine (Stugeron) tablets
+2026-04-21 22:15:28,204 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:29,706 [INFO] [141/157] Searching: Betahistine (Serc) tablets
+2026-04-21 22:15:35,269 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:36,770 [INFO] [142/157] Searching: Meclizine (Antivert) tablets
+2026-04-21 22:15:43,028 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:44,529 [INFO] [143/157] Searching: Co-careldopa / Levodopa + carbidopa (Sinemet) tablets
+2026-04-21 22:15:51,413 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:52,914 [INFO] [144/157] Searching: Pramipexole (Mirapexin) tablets
+2026-04-21 22:15:58,236 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:15:59,737 [INFO] [145/157] Searching: Selegiline (Eldepryl) tablets
+2026-04-21 22:16:05,416 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:06,918 [INFO] [146/157] Searching: Quetiapine (Seroquel) tablets
+2026-04-21 22:16:11,103 [INFO]   Trying DuckDuckGo fallback...
+2026-04-21 22:16:23,844 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:25,346 [INFO] [147/157] Searching: Citalopram (Cipramil) tablets
+2026-04-21 22:16:36,517 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:38,018 [INFO] [148/157] Searching: Duloxetine hydrochloride delayed-release (Cymbalta) capsules
+2026-04-21 22:16:44,243 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:45,745 [INFO] [149/157] Searching: Acamprosate calcium (Campral) tablets
+2026-04-21 22:16:50,097 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:51,598 [INFO] [150/157] Searching: Disulfiram (Antabuse) tablets
+2026-04-21 22:16:56,623 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:16:58,125 [INFO] [151/157] Searching: Naltrexone (Adepend/Revia) tablets
+2026-04-21 22:17:01,409 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:02,910 [INFO] [152/157] Searching: Tizanidine (Zanaflex) tablets
+2026-04-21 22:17:06,552 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:08,053 [INFO] [153/157] Searching: Baclofen (Lioresal) tablets
+2026-04-21 22:17:10,781 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:12,282 [INFO] [154/157] Searching: Cyclobenzaprine (Flexeril) tablets
+2026-04-21 22:17:16,303 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:17,805 [INFO] [155/157] Searching: Donepezil hydrochloride (Aricept) tablets
+2026-04-21 22:17:21,940 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:23,441 [INFO] [156/157] Searching: Rivastigmine (Exelon) capsules
+2026-04-21 22:17:32,424 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:33,925 [INFO] [157/157] Searching: Galantamine (Reminyl) tablets
+2026-04-21 22:17:45,823 [INFO]   ✓ Downloaded successfully
+2026-04-21 22:17:47,323 [INFO] 
+   Total photos downloaded: 157/157
+2026-04-21 22:17:47,324 [INFO] 
+Step 3: Inserting photos into document...
+2026-04-21 22:17:47,391 [INFO]   ✓ Inserted photo for: Galantamine (Reminyl) tablets
+2026-04-21 22:17:47,414 [INFO]   ✓ Inserted photo for: Rivastigmine (Exelon) capsules
+2026-04-21 22:17:47,437 [INFO]   ✓ Inserted photo for: Donepezil hydrochloride (Aricept) tablets
+2026-04-21 22:17:47,459 [INFO]   ✓ Inserted photo for: Cyclobenzaprine (Flexeril) tablets
+2026-04-21 22:17:47,482 [INFO]   ✓ Inserted photo for: Baclofen (Lioresal) tablets
+2026-04-21 22:17:47,504 [INFO]   ✓ Inserted photo for: Tizanidine (Zanaflex) tablets
+2026-04-21 22:17:47,526 [INFO]   ✓ Inserted photo for: Naltrexone (Adepend/Revia) tablets
+2026-04-21 22:17:47,547 [INFO]   ✓ Inserted photo for: Disulfiram (Antabuse) tablets
+2026-04-21 22:17:47,569 [INFO]   ✓ Inserted photo for: Acamprosate calcium (Campral) tablets
+2026-04-21 22:17:47,592 [INFO]   ✓ Inserted photo for: Duloxetine hydrochloride delayed-release (Cymbalta) capsules
+2026-04-21 22:17:47,615 [INFO]   ✓ Inserted photo for: Citalopram (Cipramil) tablets
+2026-04-21 22:17:47,638 [INFO]   ✓ Inserted photo for: Quetiapine (Seroquel) tablets
+2026-04-21 22:17:47,662 [INFO]   ✓ Inserted photo for: Selegiline (Eldepryl) tablets
+2026-04-21 22:17:47,685 [INFO]   ✓ Inserted photo for: Pramipexole (Mirapexin) tablets
+2026-04-21 22:17:47,710 [INFO]   ✓ Inserted photo for: Co-careldopa / Levodopa + carbidopa (Sinemet) tablets
+2026-04-21 22:17:47,737 [INFO]   ✓ Inserted photo for: Meclizine (Antivert) tablets
+2026-04-21 22:17:47,759 [INFO]   ✓ Inserted photo for: Betahistine (Serc) tablets
+2026-04-21 22:17:47,782 [INFO]   ✓ Inserted photo for: Cinnarizine (Stugeron) tablets
+2026-04-21 22:17:47,804 [INFO]   ✓ Inserted photo for: Ondansetron (Zofran) tablets
+2026-04-21 22:17:47,826 [INFO]   ✓ Inserted photo for: Prochlorperazine (Stemetil) tablets
+2026-04-21 22:17:47,849 [INFO]   ✓ Inserted photo for: Cyclizine (Valoid) tablets
+2026-04-21 22:17:47,872 [INFO]   ✓ Inserted photo for: Lamotrigine (Lamictal) tablets
+2026-04-21 22:17:47,895 [INFO]   ✓ Inserted photo for: Sodium valproate (Epilim) tablets
+2026-04-21 22:17:47,917 [INFO]   ✓ Inserted photo for: Carbamazepine (Tegretol) tablets
+2026-04-21 22:17:47,941 [INFO]   ✓ Inserted photo for: Liraglutide (Saxenda) injection
+2026-04-21 22:17:47,970 [INFO]   ✓ Inserted photo for: Phentermine (Duromine) capsules
+2026-04-21 22:17:47,998 [INFO]   ✓ Inserted photo for: Orlistat (Xenical) capsules
+2026-04-21 22:17:48,020 [INFO]   ✓ Inserted photo for: Paracetamol (Panadol) tablets
+2026-04-21 22:17:48,043 [INFO]   ✓ Inserted photo for: Ibuprofen (Brufen) tablets
+2026-04-21 22:17:48,067 [INFO]   ✓ Inserted photo for: Diclofenac sodium gastro-resistant (Voltarol) tablets
+2026-04-21 22:17:48,103 [INFO]   ✓ Inserted photo for: Lactulose (Duphalac) solution
+2026-04-21 22:17:48,125 [INFO]   ✓ Inserted photo for: Senna (Senokot) tablets
+2026-04-21 22:17:48,148 [INFO]   ✓ Inserted photo for: Bisacodyl (Dulcolax) tablets
+2026-04-21 22:17:48,171 [INFO]   ✓ Inserted photo for: Lansoprazole (Zoton) capsules
+2026-04-21 22:17:48,198 [INFO]   ✓ Inserted photo for: Esomeprazole (Nexium) tablets
+2026-04-21 22:17:48,223 [INFO]   ✓ Inserted photo for: Omeprazole (Losec) capsules
+2026-04-21 22:17:48,247 [INFO]   ✓ Inserted photo for: Nizatidine (Axid) capsules
+2026-04-21 22:17:48,269 [INFO]   ✓ Inserted photo for: Cimetidine (Tagamet) tablets
+2026-04-21 22:17:48,292 [INFO]   ✓ Inserted photo for: Famotidine (Pepcid) tablets
+2026-04-21 22:17:48,316 [INFO]   ✓ Inserted photo for: Metronidazole (Flagyl) tablets
+2026-04-21 22:17:48,338 [INFO]   ✓ Inserted photo for: Amoxicillin (Amoxil) capsules
+2026-04-21 22:17:48,360 [INFO]   ✓ Inserted photo for: Clarithromycin (Klaricid) tablets
+2026-04-21 22:17:48,383 [INFO]   ✓ Inserted photo for: Erythromycin tablets (gastroparesis)
+2026-04-21 22:17:48,406 [INFO]   ✓ Inserted photo for: Domperidone (Motilium) tablets
+2026-04-21 22:17:48,429 [INFO]   ✓ Inserted photo for: Metoclopramide hydrochloride (Maxolon) tablets
+2026-04-21 22:17:48,452 [INFO]   ✓ Inserted photo for: Ursodiol (Actigall) capsules
+2026-04-21 22:17:48,475 [INFO]   ✓ Inserted photo for: Chenodeoxycholic acid capsules
+2026-04-21 22:17:48,499 [INFO]   ✓ Inserted photo for: Ursodeoxycholic acid (Ursofalk) tablets
+2026-04-21 22:17:48,524 [INFO]   ✓ Inserted photo for: Peppermint oil (Colpermin) capsules
+2026-04-21 22:17:48,547 [INFO]   ✓ Inserted photo for: Mebeverine hydrochloride (Colofac) tablets
+2026-04-21 22:17:48,570 [INFO]   ✓ Inserted photo for: Hyoscine butylbromide (Buscopan) tablets
+2026-04-21 22:17:48,593 [INFO]   ✓ Inserted photo for: Simeticone (Infacol) tablets
+2026-04-21 22:17:48,617 [INFO]   ✓ Inserted photo for: Pancreatin (Pancrex) granules
+2026-04-21 22:17:48,643 [INFO]   ✓ Inserted photo for: Pancreatin (Creon) capsules
+2026-04-21 22:17:48,666 [INFO]   ✓ Inserted photo for: Racecadotril (Hidrasec) capsules
+2026-04-21 22:17:48,689 [INFO]   ✓ Inserted photo for: Codeine phosphate tablets
+2026-04-21 22:17:48,712 [INFO]   ✓ Inserted photo for: Loperamide hydrochloride (Imodium) capsules
+2026-04-21 22:17:48,735 [INFO]   ✓ Inserted photo for: Aluminum hydroxide (Alu-Cap) capsules
+2026-04-21 22:17:48,758 [INFO]   ✓ Inserted photo for: Gaviscon Advance suspension
+2026-04-21 22:17:48,782 [INFO]   ✓ Inserted photo for: Magnesium trisilicate mixture
+2026-04-21 22:17:48,805 [INFO]   ✓ Inserted photo for: Betamethasone valerate (Betnovate) cream
+2026-04-21 22:17:48,828 [INFO]   ✓ Inserted photo for: Fluocinolone acetonide + miconazole nitrate ointment
+2026-04-21 22:17:48,851 [INFO]   ✓ Inserted photo for: Mupirocin (Bactroban) ointment
+2026-04-21 22:17:48,874 [INFO]   ✓ Inserted photo for: Fluticasone propionate (Flixotide) inhaler
+2026-04-21 22:17:48,900 [INFO]   ✓ Inserted photo for: Budesonide (Pulmicort) inhaler
+2026-04-21 22:17:48,924 [INFO]   ✓ Inserted photo for: Beclometasone dipropionate (Clenil/Qvar) inhaler
+2026-04-21 22:17:48,947 [INFO]   ✓ Inserted photo for: Dornase alfa (Pulmozyme) nebuliser solution
+2026-04-21 22:17:48,974 [INFO]   ✓ Inserted photo for: Acetylcysteine (Fluimucil) sachets
+2026-04-21 22:17:48,997 [INFO]   ✓ Inserted photo for: Carbocisteine (Mucodyne) capsules
+2026-04-21 22:17:49,020 [INFO]   ✓ Inserted photo for: Potassium iodide solution
+2026-04-21 22:17:49,045 [INFO]   ✓ Inserted photo for: Guaifenesin oral solution
+2026-04-21 22:17:49,068 [INFO]   ✓ Inserted photo for: Guaifenesin (Robitussin) tablets
+2026-04-21 22:17:49,093 [INFO]   ✓ Inserted photo for: Xylometazoline (Otrivine) nasal drops
+2026-04-21 22:17:49,118 [INFO]   ✓ Inserted photo for: Phenylephrine nasal spray
+2026-04-21 22:17:49,142 [INFO]   ✓ Inserted photo for: Pseudoephedrine hydrochloride (Sudafed) tablets
+2026-04-21 22:17:49,166 [INFO]   ✓ Inserted photo for: Tiotropium (Spiriva) inhaler
+2026-04-21 22:17:49,190 [INFO]   ✓ Inserted photo for: Ipratropium bromide (Atrovent) inhaler
+2026-04-21 22:17:49,215 [INFO]   ✓ Inserted photo for: Salbutamol (Ventolin) inhaler
+2026-04-21 22:17:49,238 [INFO]   ✓ Inserted photo for: Omalizumab (Xolair) injection
+2026-04-21 22:17:49,262 [INFO]   ✓ Inserted photo for: Sodium cromoglicate (Intal) inhaler
+2026-04-21 22:17:49,287 [INFO]   ✓ Inserted photo for: Montelukast (Singulair) tablets
+2026-04-21 22:17:49,311 [INFO]   ✓ Inserted photo for: Chlorpheniramine maleate (Piriton) tablets
+2026-04-21 22:17:49,335 [INFO]   ✓ Inserted photo for: Loratadine (Clarityn) tablets
+2026-04-21 22:17:49,360 [INFO]   ✓ Inserted photo for: Cetirizine hydrochloride (Zirtek) tablets
+2026-04-21 22:17:49,387 [INFO]   ✓ Inserted photo for: Levothyroxine sodium (Euthyrox) tablets
+2026-04-21 22:17:49,410 [INFO]   ✓ Inserted photo for: Alendronate sodium (Fosamax) tablets
+2026-04-21 22:17:49,434 [INFO]   ✓ Inserted photo for: Vitamin E (alpha-tocopherol) capsules
+2026-04-21 22:17:49,458 [INFO]   ✓ Inserted photo for: Vitamin B1+B6+B12 (Neurobion) tablets
+2026-04-21 22:17:49,483 [INFO]   ✓ Inserted photo for: Cholecalciferol / Vitamin D3 (Deplus) tablets
+2026-04-21 22:17:49,505 [INFO]   ✓ Inserted photo for: Tolterodine tartrate (Detrusitol) tablets
+2026-04-21 22:17:49,529 [INFO]   ✓ Inserted photo for: Oxybutynin (Ditropan) tablets – Urinary Incontinence
+2026-04-21 22:17:49,553 [INFO]   ✓ Inserted photo for: Solifenacin succinate (Vesicare) tablets – Urinary Incontinence
+2026-04-21 22:17:49,577 [INFO]   ✓ Inserted photo for: Citric acid + potassium citrate granules
+2026-04-21 22:17:49,601 [INFO]   ✓ Inserted photo for: Sodium bicarbonate tablets
+2026-04-21 22:17:49,624 [INFO]   ✓ Inserted photo for: Potassium citrate mixture
+2026-04-21 22:17:49,648 [INFO]   ✓ Inserted photo for: Vasopressin (Pitressin) injection
+2026-04-21 22:17:49,671 [INFO]   ✓ Inserted photo for: Desmopressin nasal spray
+2026-04-21 22:17:49,695 [INFO]   ✓ Inserted photo for: Desmopressin acetate (DDAVP/DesmoMelt) tablets
+2026-04-21 22:17:49,720 [INFO]   ✓ Inserted photo for: Alfuzosin (Xatral) tablets
+2026-04-21 22:17:49,743 [INFO]   ✓ Inserted photo for: Doxazosin (Cardura) tablets
+2026-04-21 22:17:49,769 [INFO]   ✓ Inserted photo for: Tamsulosin hydrochloride (Flomax) capsules
+2026-04-21 22:17:49,793 [INFO]   ✓ Inserted photo for: Darifenacin (Emselex) tablets
+2026-04-21 22:17:49,821 [INFO]   ✓ Inserted photo for: Oxybutynin hydrochloride (Ditropan) tablets
+2026-04-21 22:17:49,845 [INFO]   ✓ Inserted photo for: Solifenacin succinate (Vesicare) tablets
+2026-04-21 22:17:49,870 [INFO]   ✓ Inserted photo for: Carbachol (Isopto Carbachol) eye drops
+2026-04-21 22:17:49,894 [INFO]   ✓ Inserted photo for: Bethanechol injection
+2026-04-21 22:17:49,920 [INFO]   ✓ Inserted photo for: Bethanechol chloride (Myotonine) tablets
+2026-04-21 22:17:49,943 [INFO]   ✓ Inserted photo for: Dorzolamide (Trusopt) eye drops
+2026-04-21 22:17:49,965 [INFO]   ✓ Inserted photo for: Methazolamide tablets
+2026-04-21 22:17:49,990 [INFO]   ✓ Inserted photo for: Acetazolamide (Diamox) tablets
+2026-04-21 22:17:50,013 [INFO]   ✓ Inserted photo for: Hydrochlorothiazide tablets
+2026-04-21 22:17:50,039 [INFO]   ✓ Inserted photo for: Indapamide sustained-release (Natrilix SR) tablets
+2026-04-21 22:17:50,062 [INFO]   ✓ Inserted photo for: Spironolactone (Aldactone) tablets
+2026-04-21 22:17:50,088 [INFO]   ✓ Inserted photo for: Itraconazole (Sporanox) capsules
+2026-04-21 22:17:50,112 [INFO]   ✓ Inserted photo for: Meropenem (Meronem) injection
+2026-04-21 22:17:50,140 [INFO]   ✓ Inserted photo for: Flucloxacillin (Floxapen) capsules
+2026-04-21 22:17:50,166 [INFO]   ✓ Inserted photo for: Cefuroxime axetil (Zinnat) tablets
+2026-04-21 22:17:50,194 [INFO]   ✓ Inserted photo for: Azithromycin (Zithromax) capsules
+2026-04-21 22:17:50,221 [INFO]   ✓ Inserted photo for: Ciprofloxacin (Ciproxin) tablets
+2026-04-21 22:17:50,247 [INFO]   ✓ Inserted photo for: Cefalexin (Keflex) capsules
+2026-04-21 22:17:50,270 [INFO]   ✓ Inserted photo for: Ivabradine (Procoralan) tablets
+2026-04-21 22:17:50,295 [INFO]   ✓ Inserted photo for: Lidocaine hydrochloride injection
+2026-04-21 22:17:50,319 [INFO]   ✓ Inserted photo for: Flecainide acetate (Tambocor) tablets
+2026-04-21 22:17:50,344 [INFO]   ✓ Inserted photo for: Amiodarone (Cordarone) tablets
+2026-04-21 22:17:50,368 [INFO]   ✓ Inserted photo for: Dopamine hydrochloride injection
+2026-04-21 22:17:50,393 [INFO]   ✓ Inserted photo for: Milrinone (Primacor) injection
+2026-04-21 22:17:50,417 [INFO]   ✓ Inserted photo for: Dobutamine (Dobutrex) injection
+2026-04-21 22:17:50,443 [INFO]   ✓ Inserted photo for: Ranolazine extended-release (Ranexa) tablets
+2026-04-21 22:17:50,468 [INFO]   ✓ Inserted photo for: Isosorbide mononitrate modified-release (Imdur) tablets
+2026-04-21 22:17:50,492 [INFO]   ✓ Inserted photo for: Glyceryl trinitrate sublingual tablets
+2026-04-21 22:17:50,517 [INFO]   ✓ Inserted photo for: Sildenafil citrate (Viagra/Revatio) tablets
+2026-04-21 22:17:50,540 [INFO]   ✓ Inserted photo for: Digitoxin tablets
+2026-04-21 22:17:50,569 [INFO]   ✓ Inserted photo for: Digoxin injection (Lanoxin)
+2026-04-21 22:17:50,594 [INFO]   ✓ Inserted photo for: Digoxin (Lanoxin) tablets
+2026-04-21 22:17:50,618 [INFO]   ✓ Inserted photo for: Metformin (Glucophage) tablets
+2026-04-21 22:17:50,644 [INFO]   ✓ Inserted photo for: Empagliflozin (Jardiance) tablets
+2026-04-21 22:17:50,669 [INFO]   ✓ Inserted photo for: Gliclazide (Diamicron) tablets
+2026-04-21 22:17:50,694 [INFO]   ✓ Inserted photo for: Sitagliptin phosphate (Januvia) tablets
+2026-04-21 22:17:50,719 [INFO]   ✓ Inserted photo for: Atorvastatin (Lipitor) tablets
+2026-04-21 22:17:50,744 [INFO]   ✓ Inserted photo for: Rosuvastatin (Crestor) tablets
+2026-04-21 22:17:50,769 [INFO]   ✓ Inserted photo for: Ezetimibe (Ezetrol) tablets
+2026-04-21 22:17:50,793 [INFO]   ✓ Inserted photo for: Nifedipine modified-release (Adalat LA) tablets
+2026-04-21 22:17:50,820 [INFO]   ✓ Inserted photo for: Cilnidipine tablets
+2026-04-21 22:17:50,847 [INFO]   ✓ Inserted photo for: Amlodipine (Istin/Norvasc) tablets
+2026-04-21 22:17:50,876 [INFO]   ✓ Inserted photo for: Nebivolol (Nebilet) tablets
+2026-04-21 22:17:50,905 [INFO]   ✓ Inserted photo for: Metoprolol Tartrate (Betaloc) tablets
+2026-04-21 22:17:50,938 [INFO]   ✓ Inserted photo for: Bisoprolol fumarate tablets
+2026-04-21 22:17:50,966 [INFO]   ✓ Inserted photo for: Losartan potassium (Cozaar) tablets
+2026-04-21 22:17:50,991 [INFO]   ✓ Inserted photo for: Lisinopril (Zestril) tablets
+2026-04-21 22:17:51,016 [INFO]   ✓ Inserted photo for: Enalapril (Innovace) tablets
+2026-04-21 22:17:51,042 [INFO]   ✓ Inserted photo for: Ramipril (Tritace) capsules
+2026-04-21 22:17:51,066 [INFO]   ✓ Inserted photo for: Clopidogrel (Plavix) tablets
+2026-04-21 22:17:51,091 [INFO]   ✓ Inserted photo for: Aspirin 100 mg & Glycine 45 mg tablets
+2026-04-21 22:17:51,120 [INFO]   ✓ Inserted photo for: Gastro-resistant Aspirin tablets
+2026-04-21 22:17:51,150 [INFO]   ✓ Inserted photo for: Rivaroxaban (Xarelto) tablets
+2026-04-21 22:17:51,177 [INFO]   ✓ Inserted photo for: Warfarin tablets
+2026-04-21 22:17:51,207 [INFO]   ✓ Inserted photo for: Apixaban (Thromban/Eliquis) tablets
+2026-04-21 22:17:51,349 [INFO] 
+Document saved: Drug_Classification_BNF_with_photos.docx
+2026-04-21 22:17:51,350 [INFO] Photos inserted: 157, Missing: 0
+2026-04-21 22:17:51,351 [INFO] Done!
